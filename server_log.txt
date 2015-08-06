@@ -1,0 +1,1702 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[22:38:08] weburl = "www.sa-mp.com"  (string)
+[22:38:08] 
+[22:38:08] Server Plugins
+[22:38:08] --------------
+[22:38:08]  Loading plugin: sscanf.dll
+[22:38:09] 
+
+[22:38:09]  ===============================
+
+[22:38:09]       sscanf plugin loaded.     
+
+[22:38:09]          Version:  2.8.1        
+
+[22:38:09]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:38:09]  ===============================
+
+[22:38:09]   Loaded.
+[22:38:09]  Loading plugin: streamer.dll
+[22:38:09]   Loaded.
+[22:38:09]  Loading plugin: regex.dll
+[22:38:09] 
+
+[22:38:09] ______________________________________
+
+[22:38:09]  Regular Expression Plugin v0.2.1 loaded
+[22:38:09] ______________________________________
+
+[22:38:09]  By: Fro (c) Copyright <TBG> 2009-2011
+[22:38:09] ______________________________________
+
+[22:38:09]   Loaded.
+[22:38:09]  Loading plugin: mysql.dll
+[22:38:09]  >> plugin.mysql: R39-2 successfully loaded.
+[22:38:09]   Loaded.
+[22:38:09]  Loading plugin: dc_cmd.dll
+[22:38:09]   Daniel's CMD plugin v2.8
+[22:38:09]     (c) 2014 Daniel_Cortez
+[22:38:09] 	www.pro-pawn.ru
+[22:38:09]   Loaded.
+[22:38:09]  Loaded 5 plugins.
+
+[22:38:09] 
+[22:38:09] Filterscripts
+[22:38:09] ---------------
+[22:38:09]   Loading filterscript 'ac.amx'...
+[22:38:09]   Loaded 1 filterscripts.
+
+[22:38:10] Подключиться к базе не удалось
+[22:38:10] Number of vehicle models: 69
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[22:38:52] weburl = "www.sa-mp.com"  (string)
+[22:38:52] 
+[22:38:52] Server Plugins
+[22:38:52] --------------
+[22:38:52]  Loading plugin: sscanf.dll
+[22:38:52] 
+
+[22:38:52]  ===============================
+
+[22:38:52]       sscanf plugin loaded.     
+
+[22:38:52]          Version:  2.8.1        
+
+[22:38:52]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:38:52]  ===============================
+
+[22:38:52]   Loaded.
+[22:38:52]  Loading plugin: streamer.dll
+[22:38:52]   Loaded.
+[22:38:52]  Loading plugin: regex.dll
+[22:38:52] 
+
+[22:38:52] ______________________________________
+
+[22:38:52]  Regular Expression Plugin v0.2.1 loaded
+[22:38:52] ______________________________________
+
+[22:38:52]  By: Fro (c) Copyright <TBG> 2009-2011
+[22:38:52] ______________________________________
+
+[22:38:52]   Loaded.
+[22:38:52]  Loading plugin: mysql.dll
+[22:38:52]  >> plugin.mysql: R39-2 successfully loaded.
+[22:38:52]   Loaded.
+[22:38:52]  Loading plugin: dc_cmd.dll
+[22:38:52]   Daniel's CMD plugin v2.8
+[22:38:52]     (c) 2014 Daniel_Cortez
+[22:38:52] 	www.pro-pawn.ru
+[22:38:52]   Loaded.
+[22:38:52]  Loaded 5 plugins.
+
+[22:38:52] 
+[22:38:52] Filterscripts
+[22:38:52] ---------------
+[22:38:52]   Loading filterscript 'ac.amx'...
+[22:38:52]   Loaded 1 filterscripts.
+
+[22:38:52] Подключение к базе успешно
+[22:38:52] Number of vehicle models: 69
+[22:38:53] [Загрузка]: Загружено 52 семей
+[22:38:54] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[22:38:54] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[22:38:54] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[22:38:54] [Загрузка]: LoadBankFrac | Загрузка: 1
+[22:38:54] [Загрузкa]: LoadSBizz | Загружено 29
+[22:38:54] [Загрузка]: Business | Загружено: 42 бизнесов
+[22:38:55] [Загрузкa]: LoadProperty | Загружено 1266
+[22:40:28] [connection] 127.0.0.1:54003 requests connection cookie.
+[22:40:29] Incoming connection: 127.0.0.1:54003 id: 0
+[22:40:29] [join] Leo_Galante has joined the server (0:127.0.0.1)
+[22:40:35] 2013, Lost connection to MySQL server during query, CheckPlayerBanIP, SELECT * FROM `BanIP` WHERE `IP` = '127.0.0.1' LIMIT 1, 1
+[22:41:30] 2013, Lost connection to MySQL server during query, LoginCallback, SELECT * FROM `accounts` WHERE `Name` = 'Leo_Galante' AND `pKey` = '123123', 1
+[22:41:33] Player ID: 0, Player Name: Leo_Galante, Kick Reason: 1
+[22:41:33] Ошибка сохранёния.
+[22:41:33] [part] Leo_Galante has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[22:43:51] weburl = "www.sa-mp.com"  (string)
+[22:43:51] 
+[22:43:51] Server Plugins
+[22:43:51] --------------
+[22:43:51]  Loading plugin: sscanf.dll
+[22:43:51] 
+
+[22:43:51]  ===============================
+
+[22:43:51]       sscanf plugin loaded.     
+
+[22:43:51]          Version:  2.8.1        
+
+[22:43:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:43:51]  ===============================
+
+[22:43:51]   Loaded.
+[22:43:51]  Loading plugin: streamer.dll
+[22:43:51]   Loaded.
+[22:43:51]  Loading plugin: regex.dll
+[22:43:51] 
+
+[22:43:51] ______________________________________
+
+[22:43:51]  Regular Expression Plugin v0.2.1 loaded
+[22:43:51] ______________________________________
+
+[22:43:51]  By: Fro (c) Copyright <TBG> 2009-2011
+[22:43:51] ______________________________________
+
+[22:43:51]   Loaded.
+[22:43:51]  Loading plugin: mysql.dll
+[22:43:51]  >> plugin.mysql: R39-2 successfully loaded.
+[22:43:51]   Loaded.
+[22:43:51]  Loading plugin: dc_cmd.dll
+[22:43:51]   Daniel's CMD plugin v2.8
+[22:43:51]     (c) 2014 Daniel_Cortez
+[22:43:51] 	www.pro-pawn.ru
+[22:43:51]   Loaded.
+[22:43:51]  Loaded 5 plugins.
+
+[22:43:51] 
+[22:43:51] Filterscripts
+[22:43:51] ---------------
+[22:43:51]   Loading filterscript 'ac.amx'...
+[22:43:51]   Loaded 1 filterscripts.
+
+[22:43:52] Подключение к базе успешно
+[22:43:52] Number of vehicle models: 69
+[22:43:53] [Загрузка]: Загружено 52 семей
+[22:43:53] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[22:43:53] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[22:43:53] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[22:43:54] [Загрузка]: LoadBankFrac | Загрузка: 1
+[22:43:54] [Загрузкa]: LoadSBizz | Загружено 29
+[22:43:54] [Загрузка]: Business | Загружено: 42 бизнесов
+[22:43:55] [Загрузкa]: LoadProperty | Загружено 1266
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[22:46:02] weburl = "www.sa-mp.com"  (string)
+[22:46:02] 
+[22:46:02] Server Plugins
+[22:46:02] --------------
+[22:46:02]  Loading plugin: sscanf.dll
+[22:46:02] 
+
+[22:46:02]  ===============================
+
+[22:46:02]       sscanf plugin loaded.     
+
+[22:46:02]          Version:  2.8.1        
+
+[22:46:02]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:46:02]  ===============================
+
+[22:46:02]   Loaded.
+[22:46:02]  Loading plugin: streamer.dll
+[22:46:02]   Loaded.
+[22:46:02]  Loading plugin: regex.dll
+[22:46:02] 
+
+[22:46:02] ______________________________________
+
+[22:46:02]  Regular Expression Plugin v0.2.1 loaded
+[22:46:02] ______________________________________
+
+[22:46:02]  By: Fro (c) Copyright <TBG> 2009-2011
+[22:46:02] ______________________________________
+
+[22:46:02]   Loaded.
+[22:46:02]  Loading plugin: mysql.dll
+[22:46:02]  >> plugin.mysql: R39-2 successfully loaded.
+[22:46:02]   Loaded.
+[22:46:02]  Loading plugin: dc_cmd.dll
+[22:46:02]   Daniel's CMD plugin v2.8
+[22:46:02]     (c) 2014 Daniel_Cortez
+[22:46:02] 	www.pro-pawn.ru
+[22:46:02]   Loaded.
+[22:46:02]  Loaded 5 plugins.
+
+[22:46:02] 
+[22:46:02] Filterscripts
+[22:46:02] ---------------
+[22:46:02]   Loading filterscript 'ac.amx'...
+[22:46:02]   Loaded 1 filterscripts.
+
+[22:46:02] Подключение к базе успешно
+[22:46:02] Number of vehicle models: 69
+[22:46:03] [Загрузка]: Загружено 52 семей
+[22:46:03] [Загрузка]: LoadGangZone загружено: 130, за 3 (ms)
+[22:46:03] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[22:46:04] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[22:46:04] [Загрузка]: LoadBankFrac | Загрузка: 1
+[22:46:04] [Загрузкa]: LoadSBizz | Загружено 29
+[22:46:04] [Загрузка]: Business | Загружено: 42 бизнесов
+[22:46:05] [Загрузкa]: LoadProperty | Загружено 1266
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[22:47:58] weburl = "www.sa-mp.com"  (string)
+[22:47:58] 
+[22:47:58] Server Plugins
+[22:47:58] --------------
+[22:47:58]  Loading plugin: sscanf.dll
+[22:47:58] 
+
+[22:47:58]  ===============================
+
+[22:47:58]       sscanf plugin loaded.     
+
+[22:47:58]          Version:  2.8.1        
+
+[22:47:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[22:47:58]  ===============================
+
+[22:47:58]   Loaded.
+[22:47:58]  Loading plugin: streamer.dll
+[22:47:58]   Loaded.
+[22:47:58]  Loading plugin: regex.dll
+[22:47:58] 
+
+[22:47:58] ______________________________________
+
+[22:47:58]  Regular Expression Plugin v0.2.1 loaded
+[22:47:58] ______________________________________
+
+[22:47:58]  By: Fro (c) Copyright <TBG> 2009-2011
+[22:47:58] ______________________________________
+
+[22:47:58]   Loaded.
+[22:47:58]  Loading plugin: mysql.dll
+[22:47:58]  >> plugin.mysql: R39-2 successfully loaded.
+[22:47:58]   Loaded.
+[22:47:58]  Loading plugin: dc_cmd.dll
+[22:47:58]   Daniel's CMD plugin v2.8
+[22:47:58]     (c) 2014 Daniel_Cortez
+[22:47:58] 	www.pro-pawn.ru
+[22:47:58]   Loaded.
+[22:47:58]  Loaded 5 plugins.
+
+[22:47:58] 
+[22:47:58] Filterscripts
+[22:47:58] ---------------
+[22:47:58]   Loading filterscript 'ac.amx'...
+[22:47:58]   Loaded 1 filterscripts.
+
+[22:47:58] Подключение к базе успешно
+[22:47:58] Number of vehicle models: 69
+[22:47:59] [Загрузка]: Загружено 52 семей
+[22:48:00] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[22:48:00] [Загрузка]: LoadHospital загружено - 16 потрачено 0 (ms)
+[22:48:00] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[22:48:00] [Загрузка]: LoadBankFrac | Загрузка: 1
+[22:48:00] [Загрузкa]: LoadSBizz | Загружено 29
+[22:48:00] [Загрузка]: Business | Загружено: 42 бизнесов
+[22:48:01] [Загрузкa]: LoadProperty | Загружено 1266
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[11:20:55] weburl = "www.sa-mp.com"  (string)
+[11:20:55] 
+[11:20:55] Server Plugins
+[11:20:55] --------------
+[11:20:55]  Loading plugin: sscanf.dll
+[11:20:55] 
+
+[11:20:55]  ===============================
+
+[11:20:55]       sscanf plugin loaded.     
+
+[11:20:55]          Version:  2.8.1        
+
+[11:20:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[11:20:55]  ===============================
+
+[11:20:55]   Loaded.
+[11:20:55]  Loading plugin: streamer.dll
+[11:20:56]   Loaded.
+[11:20:56]  Loading plugin: regex.dll
+[11:20:56] 
+
+[11:20:56] ______________________________________
+
+[11:20:56]  Regular Expression Plugin v0.2.1 loaded
+[11:20:56] ______________________________________
+
+[11:20:56]  By: Fro (c) Copyright <TBG> 2009-2011
+[11:20:56] ______________________________________
+
+[11:20:56]   Loaded.
+[11:20:56]  Loading plugin: mysql.dll
+[11:20:56]  >> plugin.mysql: R39-2 successfully loaded.
+[11:20:56]   Loaded.
+[11:20:56]  Loading plugin: dc_cmd.dll
+[11:20:57]   Daniel's CMD plugin v2.8
+[11:20:57]     (c) 2014 Daniel_Cortez
+[11:20:57] 	www.pro-pawn.ru
+[11:20:57]   Loaded.
+[11:20:57]  Loaded 5 plugins.
+
+[11:20:57] 
+[11:20:57] Filterscripts
+[11:20:57] ---------------
+[11:20:57]   Loading filterscript 'ac.amx'...
+[11:20:57]   Loaded 1 filterscripts.
+
+[11:20:58] Подключение к базе успешно
+[11:20:58] Number of vehicle models: 69
+[11:20:59] [Загрузка]: Загружено 54 семей
+[11:20:59] [Загрузка]: LoadGangZone загружено: 130, за 2 (ms)
+[11:20:59] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[11:20:59] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[11:21:00] [Загрузка]: LoadBankFrac | Загрузка: 1
+[11:21:00] [Загрузкa]: LoadSBizz | Загружено 29
+[11:21:00] [Загрузка]: Business | Загружено: 42 бизнесов
+[11:21:01] [Загрузкa]: LoadProperty | Загружено 1266
+[11:23:41] [connection] 93.133.32.43:49709 requests connection cookie.
+[11:23:42] Incoming connection: 93.133.32.43:49709 id: 0
+[11:23:42] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[11:23:48] 2013, Lost connection to MySQL server during query, CheckPlayerBanIP, SELECT * FROM `BanIP` WHERE `IP` = '93.133.32.43' LIMIT 1, 1
+[11:40:11] 2013, Lost connection to MySQL server during query, , UPDATE `business` SET `bOwner` = 'Leo_Galante',`bNalog` = '1000' WHERE `bID` = '26', 1
+[11:49:33] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pSpawn` = '1' WHERE `Name` = 'Leo_Galante' LIMIT 1, 1
+[11:54:48] [chat] [Leo_Galante]: 1/gps
+[12:04:27] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pNitro` = '1010' WHERE `Name` = 'Leo_Galante' LIMIT 1, 1
+[12:17:41] Аккаунт Leo_Galante успешно сохранен (ID 155)
+[12:17:41] [part] Leo_Galante has left the server (0:1)
+[12:17:41] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pOnline` = '1001' WHERE `Name` = 'Leo_Galante', 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[16:28:17] weburl = "www.sa-mp.com"  (string)
+[16:28:17] 
+[16:28:17] Server Plugins
+[16:28:17] --------------
+[16:28:17]  Loading plugin: sscanf.dll
+[16:28:17] 
+
+[16:28:17]  ===============================
+
+[16:28:17]       sscanf plugin loaded.     
+
+[16:28:17]          Version:  2.8.1        
+
+[16:28:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:28:17]  ===============================
+
+[16:28:17]   Loaded.
+[16:28:17]  Loading plugin: streamer.dll
+[16:28:17]   Loaded.
+[16:28:17]  Loading plugin: regex.dll
+[16:28:17] 
+
+[16:28:17] ______________________________________
+
+[16:28:17]  Regular Expression Plugin v0.2.1 loaded
+[16:28:17] ______________________________________
+
+[16:28:17]  By: Fro (c) Copyright <TBG> 2009-2011
+[16:28:17] ______________________________________
+
+[16:28:17]   Loaded.
+[16:28:17]  Loading plugin: mysql.dll
+[16:28:17]  >> plugin.mysql: R39-2 successfully loaded.
+[16:28:17]   Loaded.
+[16:28:17]  Loading plugin: dc_cmd.dll
+[16:28:17]   Daniel's CMD plugin v2.8
+[16:28:17]     (c) 2014 Daniel_Cortez
+[16:28:17] 	www.pro-pawn.ru
+[16:28:17]   Loaded.
+[16:28:17]  Loaded 5 plugins.
+
+[16:28:17] 
+[16:28:17] Filterscripts
+[16:28:17] ---------------
+[16:28:17]   Loading filterscript 'ac.amx'...
+[16:28:17]   Loaded 1 filterscripts.
+
+[16:28:18] Подключение к базе успешно
+[16:28:18] Number of vehicle models: 69
+[16:28:18] [Загрузка]: Загружено 54 семей
+[16:28:19] [Загрузка]: LoadGangZone загружено: 130, за 2 (ms)
+[16:28:19] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[16:28:19] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[16:28:19] [Загрузка]: LoadBankFrac | Загрузка: 1
+[16:28:19] [Загрузкa]: LoadSBizz | Загружено 29
+[16:28:19] [Загрузка]: Business | Загружено: 43 бизнесов
+[16:28:20] [Загрузкa]: LoadProperty | Загружено 1266
+[16:28:55] [connection] 93.133.32.43:62830 requests connection cookie.
+[16:28:56] Incoming connection: 93.133.32.43:62830 id: 0
+[16:28:56] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[16:29:02] 2013, Lost connection to MySQL server during query, CheckPlayerBanIP, SELECT * FROM `BanIP` WHERE `IP` = '93.133.32.43' LIMIT 1, 1
+[16:29:08] Player ID: 0, Player Name: Leo_Galante, Kick Reason: 1
+[16:29:08] Ошибка сохранёния.
+[16:29:08] [part] Leo_Galante has left the server (0:2)
+[16:29:30] Incoming connection: 93.133.32.43:50389 id: 0
+[16:29:30] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[16:29:46] Player ID: 0, Player Name: Leo_Galante, Kick Reason: 1
+[16:29:46] Ошибка сохранёния.
+[16:29:46] [part] Leo_Galante has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[16:44:19] weburl = "www.sa-mp.com"  (string)
+[16:44:19] 
+[16:44:19] Server Plugins
+[16:44:19] --------------
+[16:44:19]  Loading plugin: sscanf.dll
+[16:44:19] 
+
+[16:44:19]  ===============================
+
+[16:44:19]       sscanf plugin loaded.     
+
+[16:44:19]          Version:  2.8.1        
+
+[16:44:19]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:44:19]  ===============================
+
+[16:44:19]   Loaded.
+[16:44:19]  Loading plugin: streamer.dll
+[16:44:19]   Loaded.
+[16:44:19]  Loading plugin: regex.dll
+[16:44:19] 
+
+[16:44:19] ______________________________________
+
+[16:44:19]  Regular Expression Plugin v0.2.1 loaded
+[16:44:19] ______________________________________
+
+[16:44:19]  By: Fro (c) Copyright <TBG> 2009-2011
+[16:44:19] ______________________________________
+
+[16:44:19]   Loaded.
+[16:44:19]  Loading plugin: mysql.dll
+[16:44:19]  >> plugin.mysql: R39-2 successfully loaded.
+[16:44:19]   Loaded.
+[16:44:19]  Loading plugin: dc_cmd.dll
+[16:44:19]   Daniel's CMD plugin v2.8
+[16:44:19]     (c) 2014 Daniel_Cortez
+[16:44:19] 	www.pro-pawn.ru
+[16:44:19]   Loaded.
+[16:44:19]  Loaded 5 plugins.
+
+[16:44:19] 
+[16:44:19] Filterscripts
+[16:44:19] ---------------
+[16:44:19]   Loading filterscript 'ac.amx'...
+[16:44:19]   Loaded 1 filterscripts.
+
+[16:44:19] Подключение к базе успешно
+[16:44:19] Number of vehicle models: 69
+[16:44:20] [Загрузка]: Загружено 54 семей
+[16:44:20] [Загрузка]: LoadGangZone загружено: 130, за 6 (ms)
+[16:44:20] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[16:44:21] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[16:44:21] [Загрузка]: LoadBankFrac | Загрузка: 1
+[16:44:21] [Загрузкa]: LoadSBizz | Загружено 29
+[16:44:21] [Загрузка]: Business | Загружено: 43 бизнесов
+[16:44:22] [Загрузкa]: LoadProperty | Загружено 1266
+[16:44:33] [connection] 93.133.32.43:59372 requests connection cookie.
+[16:44:34] Incoming connection: 93.133.32.43:59372 id: 0
+[16:44:34] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[16:44:48] Player ID: 0, Player Name: Leo_Galante, Kick Reason: 1
+[16:44:48] Ошибка сохранёния.
+[16:44:48] [part] Leo_Galante has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[16:46:10] weburl = "www.sa-mp.com"  (string)
+[16:46:10] 
+[16:46:10] Server Plugins
+[16:46:10] --------------
+[16:46:10]  Loading plugin: sscanf.dll
+[16:46:10] 
+
+[16:46:10]  ===============================
+
+[16:46:10]       sscanf plugin loaded.     
+
+[16:46:10]          Version:  2.8.1        
+
+[16:46:10]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:46:10]  ===============================
+
+[16:46:10]   Loaded.
+[16:46:10]  Loading plugin: streamer.dll
+[16:46:10]   Loaded.
+[16:46:10]  Loading plugin: regex.dll
+[16:46:10] 
+
+[16:46:10] ______________________________________
+
+[16:46:10]  Regular Expression Plugin v0.2.1 loaded
+[16:46:10] ______________________________________
+
+[16:46:10]  By: Fro (c) Copyright <TBG> 2009-2011
+[16:46:10] ______________________________________
+
+[16:46:10]   Loaded.
+[16:46:10]  Loading plugin: mysql.dll
+[16:46:10]  >> plugin.mysql: R39-2 successfully loaded.
+[16:46:10]   Loaded.
+[16:46:10]  Loading plugin: dc_cmd.dll
+[16:46:10]   Daniel's CMD plugin v2.8
+[16:46:10]     (c) 2014 Daniel_Cortez
+[16:46:10] 	www.pro-pawn.ru
+[16:46:10]   Loaded.
+[16:46:10]  Loaded 5 plugins.
+
+[16:46:10] 
+[16:46:10] Filterscripts
+[16:46:10] ---------------
+[16:46:10]   Loading filterscript 'ac.amx'...
+[16:46:10]   Loaded 1 filterscripts.
+
+[16:46:10] Подключение к базе успешно
+[16:46:10] Number of vehicle models: 69
+[16:46:11] [Загрузка]: Загружено 54 семей
+[16:46:11] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[16:46:11] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[16:46:11] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[16:46:11] [Загрузка]: LoadBankFrac | Загрузка: 1
+[16:46:11] [Загрузкa]: LoadSBizz | Загружено 29
+[16:46:12] [Загрузка]: Business | Загружено: 43 бизнесов
+[16:46:12] [Загрузкa]: LoadProperty | Загружено 1266
+[16:46:28] [connection] 93.133.32.43:52184 requests connection cookie.
+[16:46:28] Incoming connection: 93.133.32.43:52184 id: 0
+[16:46:29] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[16:46:43] Player ID: 0, Player Name: Leo_Galante, Kick Reason: 1
+[16:46:43] Ошибка сохранёния.
+[16:46:43] [part] Leo_Galante has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[16:51:19] weburl = "www.sa-mp.com"  (string)
+[16:51:19] 
+[16:51:19] Server Plugins
+[16:51:19] --------------
+[16:51:19]  Loading plugin: sscanf.dll
+[16:51:19] 
+
+[16:51:19]  ===============================
+
+[16:51:19]       sscanf plugin loaded.     
+
+[16:51:19]          Version:  2.8.1        
+
+[16:51:19]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:51:19]  ===============================
+
+[16:51:19]   Loaded.
+[16:51:19]  Loading plugin: streamer.dll
+[16:51:19]   Loaded.
+[16:51:19]  Loading plugin: regex.dll
+[16:51:19] 
+
+[16:51:19] ______________________________________
+
+[16:51:19]  Regular Expression Plugin v0.2.1 loaded
+[16:51:19] ______________________________________
+
+[16:51:19]  By: Fro (c) Copyright <TBG> 2009-2011
+[16:51:19] ______________________________________
+
+[16:51:19]   Loaded.
+[16:51:19]  Loading plugin: mysql.dll
+[16:51:19]  >> plugin.mysql: R39-2 successfully loaded.
+[16:51:19]   Loaded.
+[16:51:19]  Loading plugin: dc_cmd.dll
+[16:51:19]   Daniel's CMD plugin v2.8
+[16:51:19]     (c) 2014 Daniel_Cortez
+[16:51:19] 	www.pro-pawn.ru
+[16:51:19]   Loaded.
+[16:51:19]  Loaded 5 plugins.
+
+[16:51:19] 
+[16:51:19] Filterscripts
+[16:51:19] ---------------
+[16:51:19]   Loading filterscript 'ac.amx'...
+[16:51:19]   Loaded 1 filterscripts.
+
+[16:51:19] Подключение к базе успешно
+[16:51:19] Number of vehicle models: 69
+[16:51:20] [Загрузка]: Загружено 54 семей
+[16:51:20] [Загрузка]: LoadGangZone загружено: 130, за 7 (ms)
+[16:51:21] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[16:51:21] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[16:51:21] [Загрузка]: LoadBankFrac | Загрузка: 1
+[16:51:21] [Загрузкa]: LoadSBizz | Загружено 29
+[16:51:21] [Загрузка]: Business | Загружено: 43 бизнесов
+[16:51:22] [Загрузкa]: LoadProperty | Загружено 1266
+[16:51:34] [connection] 93.133.32.43:62114 requests connection cookie.
+[16:51:35] Incoming connection: 93.133.32.43:62114 id: 0
+[16:51:35] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[16:51:48] Player ID: 0, Player Name: Leo_Galante, Kick Reason: 1
+[16:51:48] Ошибка сохранёния.
+[16:51:48] [part] Leo_Galante has left the server (0:2)
+[16:52:06] [connection] 93.133.32.43:62381 requests connection cookie.
+[16:52:07] Incoming connection: 93.133.32.43:62381 id: 0
+[16:52:10] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[16:52:21] Ошибка сохранёния.
+[16:52:21] [part] Leo_Galante has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[16:58:26] weburl = "www.sa-mp.com"  (string)
+[16:58:26] 
+[16:58:26] Server Plugins
+[16:58:26] --------------
+[16:58:26]  Loading plugin: sscanf.dll
+[16:58:26] 
+
+[16:58:26]  ===============================
+
+[16:58:26]       sscanf plugin loaded.     
+
+[16:58:26]          Version:  2.8.1        
+
+[16:58:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:58:26]  ===============================
+
+[16:58:26]   Loaded.
+[16:58:26]  Loading plugin: streamer.dll
+[16:58:26]   Loaded.
+[16:58:26]  Loading plugin: regex.dll
+[16:58:26] 
+
+[16:58:26] ______________________________________
+
+[16:58:26]  Regular Expression Plugin v0.2.1 loaded
+[16:58:26] ______________________________________
+
+[16:58:26]  By: Fro (c) Copyright <TBG> 2009-2011
+[16:58:26] ______________________________________
+
+[16:58:26]   Loaded.
+[16:58:26]  Loading plugin: mysql.dll
+[16:58:26]  >> plugin.mysql: R39-2 successfully loaded.
+[16:58:26]   Loaded.
+[16:58:26]  Loading plugin: dc_cmd.dll
+[16:58:26]   Daniel's CMD plugin v2.8
+[16:58:26]     (c) 2014 Daniel_Cortez
+[16:58:26] 	www.pro-pawn.ru
+[16:58:26]   Loaded.
+[16:58:26]  Loaded 5 plugins.
+
+[16:58:26] 
+[16:58:26] Filterscripts
+[16:58:26] ---------------
+[16:58:26]   Loading filterscript 'ac.amx'...
+[16:58:26]   Loaded 1 filterscripts.
+
+[16:58:26] Подключение к базе успешно
+[16:58:26] Number of vehicle models: 69
+[16:58:27] [Загрузка]: Загружено 54 семей
+[16:58:28] [Загрузка]: LoadGangZone загружено: 130, за 4 (ms)
+[16:58:28] [Загрузка]: LoadHospital загружено - 16 потрачено 0 (ms)
+[16:58:28] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[16:58:28] [Загрузка]: LoadBankFrac | Загрузка: 1
+[16:58:28] [Загрузкa]: LoadSBizz | Загружено 29
+[16:58:28] [Загрузка]: Business | Загружено: 43 бизнесов
+[16:58:29] [Загрузкa]: LoadProperty | Загружено 1266
+[16:58:46] [connection] 93.133.32.43:51025 requests connection cookie.
+[16:58:46] Incoming connection: 93.133.32.43:51025 id: 0
+[16:58:47] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[16:58:56] Player ID: 0, Player Name: Leo_Galante, Kick Reason: 1
+[16:58:56] Ошибка сохранёния.
+[16:58:56] [part] Leo_Galante has left the server (0:2)
+[17:00:00] 2013, Lost connection to MySQL server during query, , UPDATE `loadbankfrac` SET `FracBank[0][fLsnews]` = '154100',`FracBank[0][fBallas]` = '27795559',`FracBank[0][fVagos]` = '7032223',`FracBank[0][fGrove]` = '382123253',`FracBank[0][fAztek]` = '4359254',`FracBank[0][fRifa]` = '15287469',`FracBank[0][fAmmo]` = '0', 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[17:00:23] weburl = "www.sa-mp.com"  (string)
+[17:00:23] 
+[17:00:23] Server Plugins
+[17:00:23] --------------
+[17:00:23]  Loading plugin: sscanf.dll
+[17:00:23] 
+
+[17:00:23]  ===============================
+
+[17:00:23]       sscanf plugin loaded.     
+
+[17:00:23]          Version:  2.8.1        
+
+[17:00:23]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:00:23]  ===============================
+
+[17:00:23]   Loaded.
+[17:00:23]  Loading plugin: streamer.dll
+[17:00:23]   Loaded.
+[17:00:23]  Loading plugin: regex.dll
+[17:00:23] 
+
+[17:00:23] ______________________________________
+
+[17:00:23]  Regular Expression Plugin v0.2.1 loaded
+[17:00:23] ______________________________________
+
+[17:00:23]  By: Fro (c) Copyright <TBG> 2009-2011
+[17:00:23] ______________________________________
+
+[17:00:23]   Loaded.
+[17:00:23]  Loading plugin: mysql.dll
+[17:00:23]  >> plugin.mysql: R39-2 successfully loaded.
+[17:00:23]   Loaded.
+[17:00:23]  Loading plugin: dc_cmd.dll
+[17:00:23]   Daniel's CMD plugin v2.8
+[17:00:23]     (c) 2014 Daniel_Cortez
+[17:00:23] 	www.pro-pawn.ru
+[17:00:23]   Loaded.
+[17:00:23]  Loaded 5 plugins.
+
+[17:00:23] 
+[17:00:23] Filterscripts
+[17:00:23] ---------------
+[17:00:23]   Loading filterscript 'ac.amx'...
+[17:00:23]   Loaded 1 filterscripts.
+
+[17:00:23] Подключение к базе успешно
+[17:00:23] Number of vehicle models: 69
+[17:00:24] [Загрузка]: Загружено 54 семей
+[17:00:25] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[17:00:25] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[17:00:25] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[17:00:25] [Загрузка]: LoadBankFrac | Загрузка: 1
+[17:00:25] [Загрузкa]: LoadSBizz | Загружено 29
+[17:00:25] [Загрузка]: Business | Загружено: 43 бизнесов
+[17:00:26] [Загрузкa]: LoadProperty | Загружено 1266
+[17:00:36] [connection] 93.133.32.43:55296 requests connection cookie.
+[17:00:37] Incoming connection: 93.133.32.43:55296 id: 0
+[17:00:37] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[17:02:27] Аккаунт Leo_Galante успешно сохранен (ID 145)
+[17:02:27] [part] Leo_Galante has left the server (0:1)
+[17:02:27] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pOnline` = '1001' WHERE `Name` = 'Leo_Galante', 1
+[17:02:42] Incoming connection: 93.133.32.43:51167 id: 0
+[17:02:43] [join] Leo_Galante has joined the server (0:93.133.32.43)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[17:07:27] weburl = "www.sa-mp.com"  (string)
+[17:07:27] 
+[17:07:27] Server Plugins
+[17:07:27] --------------
+[17:07:27]  Loading plugin: sscanf.dll
+[17:07:27] 
+
+[17:07:27]  ===============================
+
+[17:07:27]       sscanf plugin loaded.     
+
+[17:07:27]          Version:  2.8.1        
+
+[17:07:27]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:07:27]  ===============================
+
+[17:07:27]   Loaded.
+[17:07:27]  Loading plugin: streamer.dll
+[17:07:27]   Loaded.
+[17:07:27]  Loading plugin: regex.dll
+[17:07:27] 
+
+[17:07:27] ______________________________________
+
+[17:07:27]  Regular Expression Plugin v0.2.1 loaded
+[17:07:27] ______________________________________
+
+[17:07:27]  By: Fro (c) Copyright <TBG> 2009-2011
+[17:07:27] ______________________________________
+
+[17:07:27]   Loaded.
+[17:07:27]  Loading plugin: mysql.dll
+[17:07:27]  >> plugin.mysql: R39-2 successfully loaded.
+[17:07:27]   Loaded.
+[17:07:27]  Loading plugin: dc_cmd.dll
+[17:07:27]   Daniel's CMD plugin v2.8
+[17:07:27]     (c) 2014 Daniel_Cortez
+[17:07:27] 	www.pro-pawn.ru
+[17:07:27]   Loaded.
+[17:07:27]  Loaded 5 plugins.
+
+[17:07:27] 
+[17:07:27] Filterscripts
+[17:07:27] ---------------
+[17:07:27]   Loading filterscript 'ac.amx'...
+[17:07:27]   Loaded 1 filterscripts.
+
+[17:07:27] Подключение к базе успешно
+[17:07:27] Number of vehicle models: 69
+[17:07:28] [Загрузка]: Загружено 54 семей
+[17:07:28] [Загрузка]: LoadGangZone загружено: 130, за 6 (ms)
+[17:07:28] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[17:07:29] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[17:07:29] [Загрузка]: LoadBankFrac | Загрузка: 1
+[17:07:29] [Загрузкa]: LoadSBizz | Загружено 29
+[17:07:29] [Загрузка]: Business | Загружено: 43 бизнесов
+[17:07:29] [Загрузкa]: LoadProperty | Загружено 1266
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[17:15:50] weburl = "www.sa-mp.com"  (string)
+[17:15:50] 
+[17:15:50] Server Plugins
+[17:15:50] --------------
+[17:15:50]  Loading plugin: sscanf.dll
+[17:15:50] 
+
+[17:15:50]  ===============================
+
+[17:15:50]       sscanf plugin loaded.     
+
+[17:15:50]          Version:  2.8.1        
+
+[17:15:50]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:15:50]  ===============================
+
+[17:15:50]   Loaded.
+[17:15:50]  Loading plugin: streamer.dll
+[17:15:50]   Loaded.
+[17:15:50]  Loading plugin: regex.dll
+[17:15:50] 
+
+[17:15:50] ______________________________________
+
+[17:15:50]  Regular Expression Plugin v0.2.1 loaded
+[17:15:50] ______________________________________
+
+[17:15:50]  By: Fro (c) Copyright <TBG> 2009-2011
+[17:15:50] ______________________________________
+
+[17:15:50]   Loaded.
+[17:15:50]  Loading plugin: mysql.dll
+[17:15:51]  >> plugin.mysql: R39-2 successfully loaded.
+[17:15:51]   Loaded.
+[17:15:51]  Loading plugin: dc_cmd.dll
+[17:15:51]   Daniel's CMD plugin v2.8
+[17:15:51]     (c) 2014 Daniel_Cortez
+[17:15:51] 	www.pro-pawn.ru
+[17:15:51]   Loaded.
+[17:15:51]  Loaded 5 plugins.
+
+[17:15:51] 
+[17:15:51] Filterscripts
+[17:15:51] ---------------
+[17:15:51]   Loading filterscript 'ac.amx'...
+[17:15:51]   Loaded 1 filterscripts.
+
+[17:15:51] Подключение к базе успешно
+[17:15:51] Number of vehicle models: 69
+[17:15:52] [Загрузка]: Загружено 54 семей
+[17:15:52] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[17:15:52] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[17:15:52] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[17:15:53] [Загрузка]: LoadBankFrac | Загрузка: 1
+[17:15:53] [Загрузкa]: LoadSBizz | Загружено 29
+[17:15:53] [Загрузка]: Business | Загружено: 43 бизнесов
+[17:15:54] [Загрузкa]: LoadProperty | Загружено 1266
+[17:16:04] [connection] 93.133.32.43:49419 requests connection cookie.
+[17:16:05] Incoming connection: 93.133.32.43:49419 id: 0
+[17:16:05] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[17:16:39] Аккаунт Leo_Galante успешно сохранен (ID 143)
+[17:16:39] [part] Leo_Galante has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[17:18:31] weburl = "www.sa-mp.com"  (string)
+[17:18:31] 
+[17:18:31] Server Plugins
+[17:18:31] --------------
+[17:18:31]  Loading plugin: sscanf.dll
+[17:18:31] 
+
+[17:18:31]  ===============================
+
+[17:18:31]       sscanf plugin loaded.     
+
+[17:18:31]          Version:  2.8.1        
+
+[17:18:31]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:18:31]  ===============================
+
+[17:18:31]   Loaded.
+[17:18:31]  Loading plugin: streamer.dll
+[17:18:31]   Loaded.
+[17:18:31]  Loading plugin: regex.dll
+[17:18:31] 
+
+[17:18:31] ______________________________________
+
+[17:18:31]  Regular Expression Plugin v0.2.1 loaded
+[17:18:31] ______________________________________
+
+[17:18:31]  By: Fro (c) Copyright <TBG> 2009-2011
+[17:18:31] ______________________________________
+
+[17:18:31]   Loaded.
+[17:18:31]  Loading plugin: mysql.dll
+[17:18:31]  >> plugin.mysql: R39-2 successfully loaded.
+[17:18:31]   Loaded.
+[17:18:31]  Loading plugin: dc_cmd.dll
+[17:18:31]   Daniel's CMD plugin v2.8
+[17:18:31]     (c) 2014 Daniel_Cortez
+[17:18:31] 	www.pro-pawn.ru
+[17:18:31]   Loaded.
+[17:18:31]  Loaded 5 plugins.
+
+[17:18:31] 
+[17:18:31] Filterscripts
+[17:18:31] ---------------
+[17:18:31]   Loading filterscript 'ac.amx'...
+[17:18:31]   Loaded 1 filterscripts.
+
+[17:18:31] Подключение к базе успешно
+[17:18:31] Number of vehicle models: 69
+[17:18:32] [Загрузка]: Загружено 54 семей
+[17:18:32] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[17:18:32] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[17:18:33] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[17:18:33] [Загрузка]: LoadBankFrac | Загрузка: 1
+[17:18:33] [Загрузкa]: LoadSBizz | Загружено 29
+[17:18:33] [Загрузка]: Business | Загружено: 43 бизнесов
+[17:18:34] [Загрузкa]: LoadProperty | Загружено 1266
+[17:18:44] [connection] 93.133.32.43:51691 requests connection cookie.
+[17:18:45] Incoming connection: 93.133.32.43:51691 id: 0
+[17:18:45] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[17:18:54] Ошибка сохранёния.
+[17:18:54] [part] Leo_Galante has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[17:23:29] weburl = "www.sa-mp.com"  (string)
+[17:23:29] 
+[17:23:29] Server Plugins
+[17:23:29] --------------
+[17:23:29]  Loading plugin: sscanf.dll
+[17:23:29] 
+
+[17:23:29]  ===============================
+
+[17:23:29]       sscanf plugin loaded.     
+
+[17:23:29]          Version:  2.8.1        
+
+[17:23:29]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:23:29]  ===============================
+
+[17:23:29]   Loaded.
+[17:23:29]  Loading plugin: streamer.dll
+[17:23:29]   Loaded.
+[17:23:29]  Loading plugin: regex.dll
+[17:23:29] 
+
+[17:23:29] ______________________________________
+
+[17:23:29]  Regular Expression Plugin v0.2.1 loaded
+[17:23:29] ______________________________________
+
+[17:23:29]  By: Fro (c) Copyright <TBG> 2009-2011
+[17:23:29] ______________________________________
+
+[17:23:29]   Loaded.
+[17:23:29]  Loading plugin: mysql.dll
+[17:23:30]  >> plugin.mysql: R39-2 successfully loaded.
+[17:23:30]   Loaded.
+[17:23:30]  Loading plugin: dc_cmd.dll
+[17:23:30]   Daniel's CMD plugin v2.8
+[17:23:30]     (c) 2014 Daniel_Cortez
+[17:23:30] 	www.pro-pawn.ru
+[17:23:30]   Loaded.
+[17:23:30]  Loaded 5 plugins.
+
+[17:23:30] 
+[17:23:30] Filterscripts
+[17:23:30] ---------------
+[17:23:30]   Loading filterscript 'ac.amx'...
+[17:23:30]   Loaded 1 filterscripts.
+
+[17:23:30] Подключение к базе успешно
+[17:23:30] Number of vehicle models: 69
+[17:23:31] [Загрузка]: Загружено 54 семей
+[17:23:31] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[17:23:31] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[17:23:31] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[17:23:31] [Загрузка]: LoadBankFrac | Загрузка: 1
+[17:23:31] [Загрузкa]: LoadSBizz | Загружено 29
+[17:23:31] [Загрузка]: Business | Загружено: 43 бизнесов
+[17:23:32] [Загрузкa]: LoadProperty | Загружено 1266
+[17:23:46] [connection] 93.133.32.43:56487 requests connection cookie.
+[17:23:47] Incoming connection: 93.133.32.43:56487 id: 0
+[17:23:47] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[17:25:49] Аккаунт Leo_Galante успешно сохранен (ID 141)
+[17:25:49] [part] Leo_Galante has left the server (0:2)
+[17:25:50] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pOnline` = '1001' WHERE `Name` = 'Leo_Galante', 1
+[17:26:13] Incoming connection: 93.133.32.43:57118 id: 0
+[17:26:13] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[17:26:33] Аккаунт Leo_Galante успешно сохранен (ID 141)
+[17:26:33] [part] Leo_Galante has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[17:36:09] weburl = "www.sa-mp.com"  (string)
+[17:36:09] 
+[17:36:09] Server Plugins
+[17:36:09] --------------
+[17:36:09]  Loading plugin: sscanf.dll
+[17:36:09] 
+
+[17:36:09]  ===============================
+
+[17:36:09]       sscanf plugin loaded.     
+
+[17:36:09]          Version:  2.8.1        
+
+[17:36:09]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:36:09]  ===============================
+
+[17:36:09]   Loaded.
+[17:36:09]  Loading plugin: streamer.dll
+[17:36:09]   Loaded.
+[17:36:09]  Loading plugin: regex.dll
+[17:36:09] 
+
+[17:36:09] ______________________________________
+
+[17:36:09]  Regular Expression Plugin v0.2.1 loaded
+[17:36:09] ______________________________________
+
+[17:36:09]  By: Fro (c) Copyright <TBG> 2009-2011
+[17:36:09] ______________________________________
+
+[17:36:09]   Loaded.
+[17:36:09]  Loading plugin: mysql.dll
+[17:36:09]  >> plugin.mysql: R39-2 successfully loaded.
+[17:36:09]   Loaded.
+[17:36:09]  Loading plugin: dc_cmd.dll
+[17:36:09]   Daniel's CMD plugin v2.8
+[17:36:09]     (c) 2014 Daniel_Cortez
+[17:36:09] 	www.pro-pawn.ru
+[17:36:09]   Loaded.
+[17:36:09]  Loaded 5 plugins.
+
+[17:36:09] 
+[17:36:09] Filterscripts
+[17:36:09] ---------------
+[17:36:09]   Loading filterscript 'ac.amx'...
+[17:36:09]   Loaded 1 filterscripts.
+
+[17:36:10] Подключение к базе успешно
+[17:36:10] Number of vehicle models: 69
+[17:36:11] [Загрузка]: Загружено 54 семей
+[17:36:11] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[17:36:11] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[17:36:11] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[17:36:11] [Загрузка]: LoadBankFrac | Загрузка: 1
+[17:36:11] [Загрузкa]: LoadSBizz | Загружено 29
+[17:36:12] [Загрузка]: Business | Загружено: 43 бизнесов
+[17:36:12] [Загрузкa]: LoadProperty | Загружено 1266
+[17:36:45] [connection] 93.133.32.43:50183 requests connection cookie.
+[17:36:46] Incoming connection: 93.133.32.43:50183 id: 0
+[17:36:46] [join] Leo_Galante has joined the server (0:93.133.32.43)
+[17:36:52] 2013, Lost connection to MySQL server during query, CheckPlayerBanIP, SELECT * FROM `BanIP` WHERE `IP` = '93.133.32.43' LIMIT 1, 1
+[17:50:04] Аккаунт Leo_Galante успешно сохранен (ID 140)
+[17:50:04] [part] Leo_Galante has left the server (0:1)
+[17:50:04] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pOnline` = '1001' WHERE `Name` = 'Leo_Galante', 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:25:11] weburl = "www.sa-mp.com"  (string)
+[21:25:11] 
+[21:25:11] Server Plugins
+[21:25:11] --------------
+[21:25:11]  Loading plugin: sscanf.dll
+[21:25:11] 
+
+[21:25:11]  ===============================
+
+[21:25:11]       sscanf plugin loaded.     
+
+[21:25:11]          Version:  2.8.1        
+
+[21:25:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:25:11]  ===============================
+
+[21:25:11]   Loaded.
+[21:25:11]  Loading plugin: streamer.dll
+[21:25:11]   Loaded.
+[21:25:11]  Loading plugin: regex.dll
+[21:25:11] 
+
+[21:25:11] ______________________________________
+
+[21:25:11]  Regular Expression Plugin v0.2.1 loaded
+[21:25:11] ______________________________________
+
+[21:25:11]  By: Fro (c) Copyright <TBG> 2009-2011
+[21:25:11] ______________________________________
+
+[21:25:11]   Loaded.
+[21:25:11]  Loading plugin: mysql.dll
+[21:25:11]  >> plugin.mysql: R39-2 successfully loaded.
+[21:25:11]   Loaded.
+[21:25:11]  Loading plugin: dc_cmd.dll
+[21:25:11]   Daniel's CMD plugin v2.8
+[21:25:11]     (c) 2014 Daniel_Cortez
+[21:25:11] 	www.pro-pawn.ru
+[21:25:11]   Loaded.
+[21:25:11]  Loaded 5 plugins.
+
+[21:25:11] 
+[21:25:11] Filterscripts
+[21:25:11] ---------------
+[21:25:11]   Loading filterscript 'ac.amx'...
+[21:25:11]   Loaded 1 filterscripts.
+
+[21:25:16] Подключение к базе успешно
+[21:25:16] Number of vehicle models: 69
+[21:25:25] [Загрузка]: Загружено 54 семей
+[21:25:29] [Загрузка]: LoadGangZone загружено: 130, за 5 (ms)
+[21:25:30] [Загрузка]: LoadHospital загружено - 16 потрачено 0 (ms)
+[21:25:31] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[21:25:33] [Загрузка]: LoadBankFrac | Загрузка: 1
+[21:25:34] [Загрузкa]: LoadSBizz | Загружено 29
+[21:25:35] [Загрузка]: Business | Загружено: 43 бизнесов
+[21:25:42] [Загрузкa]: LoadProperty | Загружено 1266
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:37:47] weburl = "www.sa-mp.com"  (string)
+[21:37:47] 
+[21:37:47] Server Plugins
+[21:37:47] --------------
+[21:37:47]  Loading plugin: sscanf.dll
+[21:37:47] 
+
+[21:37:47]  ===============================
+
+[21:37:47]       sscanf plugin loaded.     
+
+[21:37:47]          Version:  2.8.1        
+
+[21:37:47]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:37:47]  ===============================
+
+[21:37:47]   Loaded.
+[21:37:47]  Loading plugin: streamer.dll
+[21:37:47]   Loaded.
+[21:37:47]  Loading plugin: regex.dll
+[21:37:47] 
+
+[21:37:47] ______________________________________
+
+[21:37:47]  Regular Expression Plugin v0.2.1 loaded
+[21:37:47] ______________________________________
+
+[21:37:47]  By: Fro (c) Copyright <TBG> 2009-2011
+[21:37:47] ______________________________________
+
+[21:37:47]   Loaded.
+[21:37:47]  Loading plugin: mysql.dll
+[21:37:47]  >> plugin.mysql: R39-2 successfully loaded.
+[21:37:47]   Loaded.
+[21:37:47]  Loading plugin: dc_cmd.dll
+[21:37:47]   Daniel's CMD plugin v2.8
+[21:37:47]     (c) 2014 Daniel_Cortez
+[21:37:47] 	www.pro-pawn.ru
+[21:37:47]   Loaded.
+[21:37:47]  Loaded 5 plugins.
+
+[21:37:47] 
+[21:37:47] Filterscripts
+[21:37:47] ---------------
+[21:37:47]   Loading filterscript 'ac.amx'...
+[21:37:47]   Loaded 1 filterscripts.
+
+[21:37:52] Подключение к базе успешно
+[21:37:52] Number of vehicle models: 69
+[21:38:01] [Загрузка]: Загружено 54 семей
+[21:38:05] [Загрузка]: LoadGangZone загружено: 130, за 3 (ms)
+[21:38:05] [Загрузка]: LoadHospital загружено - 16 потрачено 0 (ms)
+[21:38:06] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[21:38:07] [Загрузка]: LoadBankFrac | Загрузка: 1
+[21:38:08] [Загрузкa]: LoadSBizz | Загружено 29
+[21:38:11] [Загрузка]: Business | Загружено: 43 бизнесов
+[21:38:12] [connection] 127.0.0.1:59019 requests connection cookie.
+[21:38:13] Incoming connection: 127.0.0.1:59019 id: 0
+[21:38:13] [join] Leo_Galante has joined the server (0:127.0.0.1)
+[21:38:18] [Загрузкa]: LoadProperty | Загружено 1266
+[21:39:27] 2013, Lost connection to MySQL server during query, LoginCallback, SELECT * FROM `accounts` WHERE `Name` = 'Leo_Galante' AND `pKey` = '123123', 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:48:25] weburl = "www.sa-mp.com"  (string)
+[21:48:25] 
+[21:48:25] Server Plugins
+[21:48:25] --------------
+[21:48:25]  Loading plugin: sscanf.dll
+[21:48:25] 
+
+[21:48:25]  ===============================
+
+[21:48:25]       sscanf plugin loaded.     
+
+[21:48:25]          Version:  2.8.1        
+
+[21:48:25]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:48:25]  ===============================
+
+[21:48:25]   Loaded.
+[21:48:25]  Loading plugin: streamer.dll
+[21:48:25]   Loaded.
+[21:48:25]  Loading plugin: regex.dll
+[21:48:25] 
+
+[21:48:25] ______________________________________
+
+[21:48:25]  Regular Expression Plugin v0.2.1 loaded
+[21:48:25] ______________________________________
+
+[21:48:25]  By: Fro (c) Copyright <TBG> 2009-2011
+[21:48:25] ______________________________________
+
+[21:48:25]   Loaded.
+[21:48:25]  Loading plugin: mysql.dll
+[21:48:25]  >> plugin.mysql: R39-2 successfully loaded.
+[21:48:25]   Loaded.
+[21:48:25]  Loading plugin: dc_cmd.dll
+[21:48:25]   Daniel's CMD plugin v2.8
+[21:48:25]     (c) 2014 Daniel_Cortez
+[21:48:25] 	www.pro-pawn.ru
+[21:48:25]   Loaded.
+[21:48:25]  Loaded 5 plugins.
+
+[21:48:25] 
+[21:48:25] Filterscripts
+[21:48:25] ---------------
+[21:48:25]   Loading filterscript 'ac.amx'...
+[21:48:25]   Loaded 1 filterscripts.
+
+[21:48:29] Подключение к базе успешно
+[21:48:29] Number of vehicle models: 69
+[21:48:33] [connection] 127.0.0.1:54936 requests connection cookie.
+[21:48:34] Incoming connection: 127.0.0.1:54936 id: 0
+[21:48:34] [join] Leo_Galante has joined the server (0:127.0.0.1)
+[21:48:38] [Загрузка]: Загружено 54 семей
+[21:48:43] [Загрузка]: LoadGangZone загружено: 130, за 2 (ms)
+[21:48:44] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[21:48:45] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[21:48:46] [Загрузка]: LoadBankFrac | Загрузка: 1
+[21:48:47] [Загрузкa]: LoadSBizz | Загружено 29
+[21:48:48] [Загрузка]: Business | Загружено: 43 бизнесов
+[21:48:55] [Загрузкa]: LoadProperty | Загружено 1266
+[21:55:43] Аккаунт Leo_Galante успешно сохранен (ID 140)
+[21:55:43] [part] Leo_Galante has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[21:56:56] weburl = "www.sa-mp.com"  (string)
+[21:56:56] 
+[21:56:56] Server Plugins
+[21:56:56] --------------
+[21:56:56]  Loading plugin: sscanf.dll
+[21:56:56] 
+
+[21:56:56]  ===============================
+
+[21:56:56]       sscanf plugin loaded.     
+
+[21:56:56]          Version:  2.8.1        
+
+[21:56:56]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:56:56]  ===============================
+
+[21:56:56]   Loaded.
+[21:56:56]  Loading plugin: streamer.dll
+[21:56:56]   Loaded.
+[21:56:56]  Loading plugin: regex.dll
+[21:56:56] 
+
+[21:56:56] ______________________________________
+
+[21:56:56]  Regular Expression Plugin v0.2.1 loaded
+[21:56:56] ______________________________________
+
+[21:56:56]  By: Fro (c) Copyright <TBG> 2009-2011
+[21:56:56] ______________________________________
+
+[21:56:56]   Loaded.
+[21:56:56]  Loading plugin: mysql.dll
+[21:56:56]  >> plugin.mysql: R39-2 successfully loaded.
+[21:56:56]   Loaded.
+[21:56:56]  Loading plugin: dc_cmd.dll
+[21:56:56]   Daniel's CMD plugin v2.8
+[21:56:56]     (c) 2014 Daniel_Cortez
+[21:56:56] 	www.pro-pawn.ru
+[21:56:56]   Loaded.
+[21:56:56]  Loaded 5 plugins.
+
+[21:56:56] 
+[21:56:56] Filterscripts
+[21:56:56] ---------------
+[21:56:56]   Loading filterscript 'ac.amx'...
+[21:56:57]   Loaded 1 filterscripts.
+
+[21:57:00] Подключение к базе успешно
+[21:57:00] Number of vehicle models: 69
+[21:57:08] [Загрузка]: Загружено 54 семей
+[21:57:13] [Загрузка]: LoadGangZone загружено: 130, за 3 (ms)
+[21:57:14] [Загрузка]: LoadHospital загружено - 16 потрачено 0 (ms)
+[21:57:15] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[21:57:16] [Загрузка]: LoadBankFrac | Загрузка: 1
+[21:57:17] [Загрузкa]: LoadSBizz | Загружено 29
+[21:57:18] [Загрузка]: Business | Загружено: 43 бизнесов
+[21:57:21] [connection] 127.0.0.1:64052 requests connection cookie.
+[21:57:22] Incoming connection: 127.0.0.1:64052 id: 0
+[21:57:22] [join] Monkey_D_Luffy has joined the server (0:127.0.0.1)
+[21:57:25] [Загрузкa]: LoadProperty | Загружено 1266
+[21:59:30] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pPhousekey` = '255', `pHousecash` = '1500000' WHERE `Name` = 'Leo_Galante', 1
+[22:00:18] Player ID: 0, Player Name: Monkey_D_Luffy, Kick Reason: 32
+[22:00:18] Ошибка сохранёния.
+[22:00:18] [part] Monkey_D_Luffy has left the server (0:2)
+[22:01:48] Incoming connection: 127.0.0.1:49833 id: 0
+[22:01:48] [join] Monkey_D_Luffy has joined the server (0:127.0.0.1)
+[22:01:57] 2013, Lost connection to MySQL server during query, CheckPlayerBanIP, SELECT * FROM `BanIP` WHERE `IP` = '127.0.0.1' LIMIT 1, 1
+[22:04:58] Player ID: 0, Player Name: Monkey_D_Luffy, Kick Reason: 0
+[22:04:58] Аккаунт Monkey_D_Luffy успешно сохранен (ID 158)
+[22:04:58] [part] Monkey_D_Luffy has left the server (0:2)
+[22:04:58] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pOnline` = '1001' WHERE `Name` = 'Monkey_D_Luffy', 1
+[22:05:41] [connection] 127.0.0.1:61239 requests connection cookie.
+[22:05:42] Incoming connection: 127.0.0.1:61239 id: 0
+[22:05:42] [join] Monkey_D_Luffy has joined the server (0:127.0.0.1)
+[22:13:14] 2013, Lost connection to MySQL server during query, CheckPlayerBanIP, SELECT * FROM `BanIP` WHERE `IP` = '127.0.0.1' LIMIT 1, 1
+[22:14:20] Аккаунт Monkey_D_Luffy успешно сохранен (ID 155)
+[22:14:20] [part] Monkey_D_Luffy has left the server (0:1)
+[22:14:20] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pOnline` = '1001' WHERE `Name` = 'Monkey_D_Luffy', 1
+[22:14:35] [connection] 127.0.0.1:60797 requests connection cookie.
+[22:14:36] Incoming connection: 127.0.0.1:60797 id: 0
+[22:14:46] Incoming connection: 127.0.0.1:49959 id: 0
+[22:14:56] Incoming connection: 127.0.0.1:65317 id: 0
+[22:15:06] Incoming connection: 127.0.0.1:59235 id: 0
+[22:15:07] [join] Monkey_D_Luffy has joined the server (0:127.0.0.1)
+[22:15:12] 2013, Lost connection to MySQL server during query, CheckPlayerBanIP, SELECT * FROM `BanIP` WHERE `IP` = '127.0.0.1' LIMIT 1, 1
+[23:00:00] 2013, Lost connection to MySQL server during query, , UPDATE `loadbankfrac` SET `FracBank[0][fLsnews]` = '154100',`FracBank[0][fBallas]` = '27795559',`FracBank[0][fVagos]` = '7032223',`FracBank[0][fGrove]` = '382123253',`FracBank[0][fAztek]` = '4359254',`FracBank[0][fRifa]` = '15287469',`FracBank[0][fAmmo]` = '0', 1
+[00:00:00] 2013, Lost connection to MySQL server during query, , UPDATE `loadbankfrac` SET `FracBank[0][fLsnews]` = '154100',`FracBank[0][fBallas]` = '27795559',`FracBank[0][fVagos]` = '7032223',`FracBank[0][fGrove]` = '382123253',`FracBank[0][fAztek]` = '4359254',`FracBank[0][fRifa]` = '15287469',`FracBank[0][fAmmo]` = '0', 1
+[01:00:00] 2013, Lost connection to MySQL server during query, , UPDATE `loadbankfrac` SET `FracBank[0][fLsnews]` = '154100',`FracBank[0][fBallas]` = '27795559',`FracBank[0][fVagos]` = '7032223',`FracBank[0][fGrove]` = '382123253',`FracBank[0][fAztek]` = '4359254',`FracBank[0][fRifa]` = '15287469',`FracBank[0][fAmmo]` = '0', 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[14:04:26] weburl = "www.sa-mp.com"  (string)
+[14:04:26] 
+[14:04:26] Server Plugins
+[14:04:26] --------------
+[14:04:26]  Loading plugin: sscanf.dll
+[14:04:26] 
+
+[14:04:26]  ===============================
+
+[14:04:26]       sscanf plugin loaded.     
+
+[14:04:26]          Version:  2.8.1        
+
+[14:04:26]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:04:26]  ===============================
+
+[14:04:26]   Loaded.
+[14:04:26]  Loading plugin: streamer.dll
+[14:04:27]   Loaded.
+[14:04:27]  Loading plugin: regex.dll
+[14:04:27] 
+
+[14:04:27] ______________________________________
+
+[14:04:27]  Regular Expression Plugin v0.2.1 loaded
+[14:04:27] ______________________________________
+
+[14:04:27]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:04:27] ______________________________________
+
+[14:04:27]   Loaded.
+[14:04:27]  Loading plugin: mysql.dll
+[14:04:27]  >> plugin.mysql: R39-2 successfully loaded.
+[14:04:27]   Loaded.
+[14:04:27]  Loading plugin: dc_cmd.dll
+[14:04:27]   Daniel's CMD plugin v2.8
+[14:04:27]     (c) 2014 Daniel_Cortez
+[14:04:27] 	www.pro-pawn.ru
+[14:04:27]   Loaded.
+[14:04:27]  Loaded 5 plugins.
+
+[14:04:27] 
+[14:04:27] Filterscripts
+[14:04:27] ---------------
+[14:04:27]   Loading filterscript 'ac.amx'...
+[14:04:27]   Loaded 1 filterscripts.
+
+[14:04:27]  
+[14:04:27]  
+[14:04:27]  
+[14:04:27]  ======================================= 
+[14:04:27]  |                                     | 
+[14:04:27]  |        YSI version 3.09.0684        | 
+[14:04:27]  |        By Alex "Y_Less" Cole        | 
+[14:04:27]  |                                     | 
+[14:04:27]  ======================================= 
+[14:04:27]  
+[14:04:27]  
+[14:04:27]  
+[14:04:27] TEST OK LALKA
+[14:04:27] TEST OK LALKA
+[14:04:27] TEST OK LALKA
+[14:04:27] TEST OK LALKA
+[14:04:27] TEST OK LALKA
+[14:04:27] TEST OK LALKA
+[14:04:27] TEST OK LALKA
+[14:04:27] TEST OK LALKA
+[14:04:27] TEST OK LALKA
+[14:04:28] Подключение к базе успешно
+[14:04:28] Number of vehicle models: 69
+[14:04:28] [Загрузка]: Загружено 54 семей
+[14:04:29] [Загрузка]: LoadGangZone загружено: 130, за 3 (ms)
+[14:04:29] [Загрузка]: LoadHospital загружено - 16 потрачено 0 (ms)
+[14:04:29] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[14:04:29] [Загрузка]: LoadBankFrac | Загрузка: 1
+[14:04:29] [Загрузкa]: LoadSBizz | Загружено 29
+[14:04:29] [Загрузка]: Business | Загружено: 43 бизнесов
+[14:04:30] [Загрузкa]: LoadProperty | Загружено 1266
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[14:31:12] weburl = "www.sa-mp.com"  (string)
+[14:31:12] 
+[14:31:12] Server Plugins
+[14:31:12] --------------
+[14:31:12]  Loading plugin: sscanf.dll
+[14:31:12] 
+
+[14:31:12]  ===============================
+
+[14:31:12]       sscanf plugin loaded.     
+
+[14:31:12]          Version:  2.8.1        
+
+[14:31:12]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:31:12]  ===============================
+
+[14:31:12]   Loaded.
+[14:31:12]  Loading plugin: streamer.dll
+[14:31:12]   Loaded.
+[14:31:12]  Loading plugin: regex.dll
+[14:31:12] 
+
+[14:31:12] ______________________________________
+
+[14:31:12]  Regular Expression Plugin v0.2.1 loaded
+[14:31:12] ______________________________________
+
+[14:31:12]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:31:12] ______________________________________
+
+[14:31:12]   Loaded.
+[14:31:12]  Loading plugin: mysql.dll
+[14:31:12]  >> plugin.mysql: R39-2 successfully loaded.
+[14:31:12]   Loaded.
+[14:31:12]  Loading plugin: dc_cmd.dll
+[14:31:12]   Daniel's CMD plugin v2.8
+[14:31:12]     (c) 2014 Daniel_Cortez
+[14:31:12] 	www.pro-pawn.ru
+[14:31:12]   Loaded.
+[14:31:12]  Loaded 5 plugins.
+
+[14:31:12] 
+[14:31:12] Filterscripts
+[14:31:12] ---------------
+[14:31:12]   Loading filterscript 'ac.amx'...
+[14:31:12]   Loaded 1 filterscripts.
+
+[14:31:12]  
+[14:31:12]  
+[14:31:12]  
+[14:31:12]  ======================================= 
+[14:31:12]  |                                     | 
+[14:31:12]  |        YSI version 3.09.0684        | 
+[14:31:12]  |        By Alex "Y_Less" Cole        | 
+[14:31:12]  |                                     | 
+[14:31:12]  ======================================= 
+[14:31:12]  
+[14:31:12]  
+[14:31:12]  
+[14:31:12] Подключение к базе успешно
+[14:31:12] Number of vehicle models: 69
+[14:31:13] [Загрузка]: Загружено 54 семей
+[14:31:13] [Загрузка]: LoadGangZone загружено: 130, за 6 (ms)
+[14:31:14] [Загрузка]: LoadHospital загружено - 16 потрачено 0 (ms)
+[14:31:14] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[14:31:14] [Загрузка]: LoadBankFrac | Загрузка: 1
+[14:31:14] [Загрузкa]: LoadSBizz | Загружено 29
+[14:31:14] [Загрузка]: Business | Загружено: 43 бизнесов
+[14:31:15] [Загрузкa]: LoadProperty | Загружено 1266

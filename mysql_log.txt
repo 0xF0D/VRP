@@ -1,0 +1,28 @@
+[22:38:10] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'fh79114r_samp'@'x4d049a27.dyn.telefonica.de' (using password: YES)
+[22:38:10] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'fh79114r_samp'@'x4d049a27.dyn.telefonica.de' (using password: YES)
+[22:38:10] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'fh79114r_samp'@'x4d049a27.dyn.telefonica.de' (using password: YES)
+[22:38:10] [ERROR] CMySQLConnection::Connect - (error #1045) Access denied for user 'fh79114r_samp'@'x4d049a27.dyn.telefonica.de' (using password: YES)
+[22:40:35] [ERROR] CMySQLQuery::Execute[CheckPlayerBanIP] - (error #2013) Lost connection to MySQL server during query
+[22:41:30] [ERROR] CMySQLQuery::Execute[LoginCallback] - (error #2013) Lost connection to MySQL server during query
+[11:23:48] [ERROR] CMySQLQuery::Execute[CheckPlayerBanIP] - (error #2013) Lost connection to MySQL server during query
+[11:40:11] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[11:49:33] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[12:04:27] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[12:17:41] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[16:29:02] [ERROR] CMySQLQuery::Execute[CheckPlayerBanIP] - (error #2013) Lost connection to MySQL server during query
+[17:00:00] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[17:02:27] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[17:25:50] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[17:36:52] [ERROR] CMySQLQuery::Execute[CheckPlayerBanIP] - (error #2013) Lost connection to MySQL server during query
+[17:50:04] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[21:39:27] [ERROR] CMySQLQuery::Execute[LoginCallback] - (error #2013) Lost connection to MySQL server during query
+[21:59:30] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[22:01:57] [ERROR] CMySQLQuery::Execute[CheckPlayerBanIP] - (error #2013) Lost connection to MySQL server during query
+[22:02:20] [ERROR] cache_get_field_content_int - invalid datatype
+[22:04:58] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[22:13:14] [ERROR] CMySQLQuery::Execute[CheckPlayerBanIP] - (error #2013) Lost connection to MySQL server during query
+[22:14:20] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[22:15:12] [ERROR] CMySQLQuery::Execute[CheckPlayerBanIP] - (error #2013) Lost connection to MySQL server during query
+[23:00:00] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[00:00:00] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[01:00:00] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
