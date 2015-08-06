@@ -11,8 +11,6 @@
 #include                                     float
 #include                                     inc
 #include                                     ac
-#include 									<YSI\y_hooks>
-
 //Hooks
 #include                                    <Mod_Source\Mysql_config>
 
@@ -31,7 +29,7 @@
 #define START_NEWVALUTA                      10
 #define START_LEVEL                          9
 
-#define FD1									 "NickName"
+#define FD1									 "Monkey_D_Luffy"
 #define FD2                         		 "NickName"
 #define FD3                         		 "NickName"
 #define FD4                         		 "NickName"
@@ -19249,8 +19247,8 @@ Load3DTexts()
 }
 stock LoadObject()
 {
-	#include <LoadObjectEx>
-	#include <LoadObject>
+	#include <Mod_Source\LoadObjectEx>
+	#include <Mod_Source\LoadObject>
 }
 LoadVehicles()//Машины сервера
 {

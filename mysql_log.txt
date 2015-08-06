@@ -26,3 +26,4 @@
 [23:00:00] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
 [00:00:00] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
 [01:00:00] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
+[23:22:44] [ERROR] CMySQLQuery::Execute[] - (error #2013) Lost connection to MySQL server during query
