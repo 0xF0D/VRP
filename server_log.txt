@@ -1866,3 +1866,243 @@ v0.3.7, (C)2005-2015 SA-MP Team
 [23:22:44] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pOnline` = '1001' WHERE `Name` = 'Monkey_D_Luffy', 1
 Console input: stop
 Console input: save
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[23:55:25] weburl = "www.sa-mp.com"  (string)
+[23:55:25] 
+[23:55:25] Server Plugins
+[23:55:25] --------------
+[23:55:25]  Loading plugin: sscanf.dll
+[23:55:25] 
+
+[23:55:25]  ===============================
+
+[23:55:25]       sscanf plugin loaded.     
+
+[23:55:25]          Version:  2.8.1        
+
+[23:55:25]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:55:25]  ===============================
+
+[23:55:25]   Loaded.
+[23:55:25]  Loading plugin: streamer.dll
+[23:55:25]   Loaded.
+[23:55:25]  Loading plugin: regex.dll
+[23:55:25] 
+
+[23:55:25] ______________________________________
+
+[23:55:25]  Regular Expression Plugin v0.2.1 loaded
+[23:55:25] ______________________________________
+
+[23:55:25]  By: Fro (c) Copyright <TBG> 2009-2011
+[23:55:25] ______________________________________
+
+[23:55:25]   Loaded.
+[23:55:25]  Loading plugin: mysql.dll
+[23:55:25]  >> plugin.mysql: R39-2 successfully loaded.
+[23:55:25]   Loaded.
+[23:55:25]  Loading plugin: dc_cmd.dll
+[23:55:25]   Daniel's CMD plugin v2.8
+[23:55:25]     (c) 2014 Daniel_Cortez
+[23:55:25] 	www.pro-pawn.ru
+[23:55:25]   Loaded.
+[23:55:25]  Loaded 5 plugins.
+
+[23:55:25] 
+[23:55:25] Filterscripts
+[23:55:25] ---------------
+[23:55:25]   Loading filterscript 'ac.amx'...
+[23:55:25]   Loaded 1 filterscripts.
+
+[23:55:25]  
+[23:55:25]  
+[23:55:25]  
+[23:55:25]  ======================================= 
+[23:55:25]  |                                     | 
+[23:55:25]  |        YSI version 3.09.0684        | 
+[23:55:25]  |        By Alex "Y_Less" Cole        | 
+[23:55:25]  |                                     | 
+[23:55:25]  ======================================= 
+[23:55:25]  
+[23:55:25]  
+[23:55:25]  
+[23:55:25] Подключение к базе успешно
+[23:55:25] Number of vehicle models: 69
+[23:55:26] [Загрузка]: Загружено 54 семей
+[23:55:26] [Загрузка]: LoadGangZone загружено: 130, за 2 (ms)
+[23:55:26] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[23:55:27] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[23:55:27] [Загрузка]: LoadBankFrac | Загрузка: 1
+[23:55:27] [Загрузкa]: LoadSBizz | Загружено 29
+[23:55:27] [Загрузка]: Business | Загружено: 43 бизнесов
+[23:55:27] [Загрузкa]: LoadProperty | Загружено 1266
+[23:55:44] [connection] 127.0.0.1:55148 requests connection cookie.
+[23:55:45] Incoming connection: 127.0.0.1:55148 id: 0
+[23:55:45] [join] Monkey_D_Luffy has joined the server (0:127.0.0.1)
+[23:56:43] Аккаунт Monkey_D_Luffy успешно сохранен (ID 150)
+[23:56:43] [part] Monkey_D_Luffy has left the server (0:1)
+[23:56:43] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pOnline` = '1001' WHERE `Name` = 'Monkey_D_Luffy', 1
+[23:56:58] Incoming connection: 127.0.0.1:55149 id: 0
+[23:56:59] [join] Monkey_D_Luffy has joined the server (0:127.0.0.1)
+[23:57:08] Аккаунт Monkey_D_Luffy успешно сохранен (ID 147)
+[23:57:08] [part] Monkey_D_Luffy has left the server (0:1)
+[00:00:00] 2013, Lost connection to MySQL server during query, , UPDATE `loadbankfrac` SET `FracBank[0][fLsnews]` = '154100',`FracBank[0][fBallas]` = '27795559',`FracBank[0][fVagos]` = '7032223',`FracBank[0][fGrove]` = '382123253',`FracBank[0][fAztek]` = '4359254',`FracBank[0][fRifa]` = '15287469',`FracBank[0][fAmmo]` = '0', 1
+[00:01:20] [connection] 127.0.0.1:51603 requests connection cookie.
+[00:01:21] Incoming connection: 127.0.0.1:51603 id: 0
+[00:01:21] [join] Monkey_D_Luffy has joined the server (0:127.0.0.1)
+[00:01:26] 2013, Lost connection to MySQL server during query, CheckPlayerBanIP, SELECT * FROM `BanIP` WHERE `IP` = '127.0.0.1' LIMIT 1, 1
+[00:09:50] 2013, Lost connection to MySQL server during query, , UPDATE `loadbankfrac` SET `FracBank[0][fLsnews]` = '154100',`FracBank[0][fBallas]` = '27795559',`FracBank[0][fVagos]` = '7032223',`FracBank[0][fGrove]` = '382123253',`FracBank[0][fAztek]` = '4359254',`FracBank[0][fRifa]` = '15287469',`FracBank[0][fAmmo]` = '0', 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[00:15:17] weburl = "www.sa-mp.com"  (string)
+[00:15:17] 
+[00:15:17] Server Plugins
+[00:15:17] --------------
+[00:15:17]  Loading plugin: sscanf.dll
+[00:15:17] 
+
+[00:15:17]  ===============================
+
+[00:15:17]       sscanf plugin loaded.     
+
+[00:15:17]          Version:  2.8.1        
+
+[00:15:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:15:17]  ===============================
+
+[00:15:17]   Loaded.
+[00:15:17]  Loading plugin: streamer.dll
+[00:15:17]   Loaded.
+[00:15:17]  Loading plugin: regex.dll
+[00:15:17] 
+
+[00:15:17] ______________________________________
+
+[00:15:17]  Regular Expression Plugin v0.2.1 loaded
+[00:15:17] ______________________________________
+
+[00:15:17]  By: Fro (c) Copyright <TBG> 2009-2011
+[00:15:17] ______________________________________
+
+[00:15:17]   Loaded.
+[00:15:17]  Loading plugin: mysql.dll
+[00:15:17]  >> plugin.mysql: R39-2 successfully loaded.
+[00:15:17]   Loaded.
+[00:15:17]  Loading plugin: dc_cmd.dll
+[00:15:17]   Daniel's CMD plugin v2.8
+[00:15:17]     (c) 2014 Daniel_Cortez
+[00:15:17] 	www.pro-pawn.ru
+[00:15:17]   Loaded.
+[00:15:17]  Loaded 5 plugins.
+
+[00:15:17] 
+[00:15:17] Filterscripts
+[00:15:17] ---------------
+[00:15:17]   Loading filterscript 'ac.amx'...
+[00:15:17]   Loaded 1 filterscripts.
+
+[00:15:17] Подключение к базе успешно
+[00:15:17] Number of vehicle models: 69
+[00:15:18] [Загрузка]: Загружено 54 семей
+[00:15:18] [Загрузка]: LoadGangZone загружено: 130, за 2 (ms)
+[00:15:18] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[00:15:18] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[00:15:18] [Загрузка]: LoadBankFrac | Загрузка: 1
+[00:15:19] [Загрузкa]: LoadSBizz | Загружено 29
+[00:15:19] [Загрузка]: Business | Загружено: 43 бизнесов
+[00:15:20] [Загрузкa]: LoadProperty | Загружено 1266
+[00:15:24] [connection] 127.0.0.1:56543 requests connection cookie.
+[00:15:25] Incoming connection: 127.0.0.1:56543 id: 0
+[00:15:25] [join] Monkey_D_Luffy has joined the server (0:127.0.0.1)
+[00:15:59] Ошибка сохранёния.
+[00:15:59] [part] Monkey_D_Luffy has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7, (C)2005-2015 SA-MP Team
+
+[00:16:33] weburl = "www.sa-mp.com"  (string)
+[00:16:33] 
+[00:16:33] Server Plugins
+[00:16:33] --------------
+[00:16:33]  Loading plugin: sscanf.dll
+[00:16:33] 
+
+[00:16:33]  ===============================
+
+[00:16:33]       sscanf plugin loaded.     
+
+[00:16:33]          Version:  2.8.1        
+
+[00:16:33]    (c) 2012 Alex "Y_Less" Cole  
+
+[00:16:33]  ===============================
+
+[00:16:33]   Loaded.
+[00:16:33]  Loading plugin: streamer.dll
+[00:16:33]   Loaded.
+[00:16:33]  Loading plugin: regex.dll
+[00:16:33] 
+
+[00:16:33] ______________________________________
+
+[00:16:33]  Regular Expression Plugin v0.2.1 loaded
+[00:16:33] ______________________________________
+
+[00:16:33]  By: Fro (c) Copyright <TBG> 2009-2011
+[00:16:33] ______________________________________
+
+[00:16:33]   Loaded.
+[00:16:33]  Loading plugin: mysql.dll
+[00:16:33]  >> plugin.mysql: R39-2 successfully loaded.
+[00:16:33]   Loaded.
+[00:16:33]  Loading plugin: dc_cmd.dll
+[00:16:33]   Daniel's CMD plugin v2.8
+[00:16:33]     (c) 2014 Daniel_Cortez
+[00:16:33] 	www.pro-pawn.ru
+[00:16:33]   Loaded.
+[00:16:33]  Loaded 5 plugins.
+
+[00:16:33] 
+[00:16:33] Filterscripts
+[00:16:33] ---------------
+[00:16:33]   Loading filterscript 'ac.amx'...
+[00:16:33]   Loaded 1 filterscripts.
+
+[00:16:33] Подключение к базе успешно
+[00:16:33] Number of vehicle models: 69
+[00:16:34] [Загрузка]: Загружено 54 семей
+[00:16:34] [Загрузка]: LoadGangZone загружено: 130, за 6 (ms)
+[00:16:34] [Загрузка]: LoadHospital загружено - 16 потрачено 1 (ms)
+[00:16:34] [Загрузка]: LoadAlcoFrak | Загрузка: 1
+[00:16:34] [Загрузка]: LoadBankFrac | Загрузка: 1
+[00:16:34] [Загрузкa]: LoadSBizz | Загружено 29
+[00:16:35] [Загрузка]: Business | Загружено: 43 бизнесов
+[00:16:35] [Загрузкa]: LoadProperty | Загружено 1266
+[00:16:55] [connection] 127.0.0.1:56544 requests connection cookie.
+[00:16:56] Incoming connection: 127.0.0.1:56544 id: 0
+[00:16:56] [join] Monkey_D_Luffy has joined the server (0:127.0.0.1)
+[00:19:48] Аккаунт Monkey_D_Luffy успешно сохранен (ID 146)
+[00:19:48] [part] Monkey_D_Luffy has left the server (0:1)
+[00:19:48] 2013, Lost connection to MySQL server during query, , UPDATE `accounts` SET `pOnline` = '1001' WHERE `Name` = 'Monkey_D_Luffy', 1
