@@ -138,7 +138,7 @@ new
 	   sellzone[MAX_PLAYERS],Float:PlayerHealth[MAX_PLAYERS],Flood[MAX_PLAYERS],ProposeOffer[MAX_PLAYERS],chekmatlva[10],restoran[2],chekmats[3],TicketOffer[MAX_PLAYERS],TicketMoney[MAX_PLAYERS],udar[MAX_PLAYERS],PlayerDrunk[MAX_PLAYERS],Shot[MAX_PLAYERS],PicCP[MAX_PLAYERS],Text3D:kaznameria,kazna = 0,
 	    nalog = 0,Text3D:Block3D[128],createdvehicles[MAX_VEHICLES],createdvehs,caridhouse[MAX_PLAYERS],fuckshoter[MAX_PLAYERS][3],JobCarTime[MAX_PLAYERS],sellgun,sellgun1,sellgun2,sellgun3,sellgun4,PEfir[MAX_PLAYERS],Pefir[MAX_PLAYERS],Float:Fuell[MAX_VEHICLES],Refueling[MAX_PLAYERS],OldFuel[MAX_PLAYERS],
 	     PlayerSpectateID[MAX_PLAYERS],PlayerSpec[MAX_PLAYERS],alkogol[MAX_VEHICLES],SwatDoor[MAX_PLAYERS],HealOffer[MAX_PLAYERS],HealPrice[MAX_PLAYERS],InviteOffer[MAX_PLAYERS],FreeOffer[MAX_PLAYERS],SposobOffer[MAX_PLAYERS],FreePrice[MAX_PLAYERS],vehcreat[MAX_VEHICLES],antiwarn[MAX_PLAYERS],minigun[MAX_PLAYERS],
-	      connecttime[MAX_PLAYERS],adgo[MAX_PLAYERS],adgov = 0,adgo1[MAX_PLAYERS],Cvet1[MAX_PLAYERS],Cvet2[MAX_PLAYERS],crashcuff[MAX_PLAYERS],jackcar[MAX_PLAYERS],minstr,ministrcar[5],fight,ring = 0,zakonn = 0,poxititel[MAX_PLAYERS],poxiwenbIu[MAX_PLAYERS],fightid[MAX_PLAYERS],TimeBox[MAX_PLAYERS],TimeBoxAll[MAX_PLAYERS],
+	      connecttime[MAX_PLAYERS],adgo[MAX_PLAYERS],adgov = 0,adgo1[MAX_PLAYERS],carColor1[MAX_PLAYERS],carColor2[MAX_PLAYERS],crashcuff[MAX_PLAYERS],jackcar[MAX_PLAYERS],minstr,ministrcar[5],fight,ring = 0,zakonn = 0,poxititel[MAX_PLAYERS],poxiwenbIu[MAX_PLAYERS],fightid[MAX_PLAYERS],TimeBox[MAX_PLAYERS],TimeBoxAll[MAX_PLAYERS],
 	       Float: MGM[5] = 100.0,UMusic[128],Float: MusicU[5] = 100.0,housebuy = 0,fuelbuy = 0,healpric = 100,smspricels = 50,smsls = 0,Text3D:Meh3d[MAX_VEHICLES],keys[MAX_PLAYERS],DrugOffer[MAX_PLAYERS],DrugPrice[MAX_PLAYERS],DrugGram[MAX_PLAYERS],HotdogOffer[MAX_PLAYERS],ZoneOffer[MAX_PLAYERS],ZonePrice[MAX_PLAYERS],
 	        HotdogPrice[MAX_PLAYERS],Menu:ChoseSkin,ChosenPlayer[MAX_PLAYERS],IsLocked[MAX_VEHICLES],usemats[MAX_PLAYERS],OldSkin[MAX_PLAYERS],Float: Armour[MAX_PLAYERS],forma[MAX_PLAYERS],proverkaforma[MAX_PLAYERS],unban[MAX_PLAYERS],Army,PlayerAdminMP,Tazer[MAX_PLAYERS],TazerTime[MAX_PLAYERS],TranPlayer[MAX_PLAYERS],
 	         MarryWitness[MAX_PLAYERS],MarryWitnessOffer[MAX_PLAYERS],PlayerStoned[MAX_PLAYERS],Medics = 0,Mechanics = 0,Police = 0,MechanicCall = INVALID_PLAYER_ID,PoliceCall = INVALID_PLAYER_ID,MedicCall = INVALID_PLAYER_ID,PlayerTied[MAX_PLAYERS],LiveOffer[MAX_PLAYERS],LiveOfferls[MAX_PLAYERS],TalkingLive[MAX_PLAYERS],
@@ -149,7 +149,7 @@ new
 	              skinshop[2],gunarm[3],zip[2],plen[2],zona,zonaa,sklad[2],PlayerText:FuelShow[MAX_PLAYERS],PlayerText:SpeedShow[MAX_PLAYERS],PlayerText:HealthShow[MAX_PLAYERS],PlayerText:EngineShow[MAX_PLAYERS],PlayerText:LockShow[MAX_PLAYERS],Text:Fuel,Text:VehBox,Text:Speed,Text:Heal,PlayerText:ModelCarTD[MAX_PLAYERS],
 	               PlayerText:ModelCar[MAX_PLAYERS],Text:Engines,realtime = 1,wtime = 15,timeshift = 0,shifthour,levelexp = 4,alkofuravagos[1],alkofuragrove[1], alkofuraactek[1],alkofurarifa[1],alkofuraballas[1],Mobile[MAX_PLAYERS],Tel[MAX_PLAYERS],gCarLock[MAX_VEHICLES],MatsArmyCar[MAX_PLAYERS],VertMats[MAX_PLAYERS],
 	                Float:TeleportDest[MAX_PLAYERS][3],STimer[MAX_PLAYERS],PlayerText:ShopText[MAX_PLAYERS],PlayerText:ReconPlayerText[MAX_PLAYERS][2],PlayerText:Bizwar[MAX_PLAYERS][3],PlayerText:Capture[MAX_PLAYERS][6],GoCapt[MAX_PLAYERS],ZonsWar[3],CountOnZone[20],FrakCD[20],FracVoina[20],WantNickChange[MAX_PLAYERS],prabota,addd,
-	                 red[MAX_PLAYERS],smg[MAX_PLAYERS],Cvet[MAX_PLAYERS],ChangeFirstSkin[MAX_PLAYERS],Menu:BuyClothes,telefons,vmfgate,vmfgate2,lspdgate,sfpdgate,sfpdgate3,lvpdgate,lvpdgate3,autogate,fbigate,MSH1[MAX_PLAYERS],MSH2[MAX_PLAYERS],vmfgate3[MAX_PLAYERS],vmfgate1[MAX_PLAYERS],fbigate2[MAX_PLAYERS],lspdgate2[MAX_PLAYERS],
+	                 red[MAX_PLAYERS],smg[MAX_PLAYERS],carColor[MAX_PLAYERS],ChangeFirstSkin[MAX_PLAYERS],Menu:BuyClothes,telefons,vmfgate,vmfgate2,lspdgate,sfpdgate,sfpdgate3,lvpdgate,lvpdgate3,autogate,fbigate,MSH1[MAX_PLAYERS],MSH2[MAX_PLAYERS],vmfgate3[MAX_PLAYERS],vmfgate1[MAX_PLAYERS],fbigate2[MAX_PLAYERS],lspdgate2[MAX_PLAYERS],
 	                  sfpdgate2[MAX_PLAYERS],sfpdgate4[MAX_PLAYERS],lvpdgate2[MAX_PLAYERS],lvpdgate4[MAX_PLAYERS],autogate2[MAX_PLAYERS],pokupkas,ANTI_FLOOD_PICKUP[MAX_PLAYERS],mask[MAX_PLAYERS],merias[2],autoshoppick[4],spawneda,buydom,mashina[MAX_PLAYERS],timerP[MAX_PLAYERS],ProsInfo[MAX_PLAYERS][MAX_VEHICLES],balonCraska[MAX_PLAYERS] = 3,
                        master[2],kazarma[6],VladGzone[5],Text3D: BandText[6],medshlag[2],strpaintball[1000],StartPaintBall,TimerPaintBall,TeamPain[MAX_PLAYERS],KillPain[MAX_PLAYERS],DeathPain[MAX_PLAYERS],RedPlayer,BluePlayer,RedScore,BlueScore,paintball,tpadmin[MAX_PLAYERS],gatelva1,Enter,Enter1,gatesfa,gatelva,gatetimersfa,gatetimerlva,
 	                    gatetimerlva1,ORC[MAX_PLAYERS char],BizEnter[MAX_PLAYERS],sellerbiz[MAX_PLAYERS],bizcost[MAX_PLAYERS],forwho[MAX_PLAYERS],mytimer[MAX_PLAYERS],spawncarss,Text:TDSEL[6],Float:Degree[MAX_PLAYERS],Float:lX[MAX_PLAYERS],Float:lY[MAX_PLAYERS],Float:lZ[MAX_PLAYERS],buynewvaluta[MAX_PLAYERS],format_string[144],groves = 0, vagoss = 0, ballass = 0, rifas = 0, aztecas = 0;
@@ -1901,7 +1901,7 @@ stock SetPlayerDataToDefault(playerid)
 	pTemp[playerid][pAFK] = 0;
 	PlayerInfo[playerid][pFacePass] = 1;
 	PlayerInfo[playerid][pBoss] = 0;
-	Cvet[playerid] = 255;
+	carColor[playerid] = 255;
 	SetSpawnInfo(playerid, 0, 0, 0.0, 0.0, 0.0, 0.0, 0, 0, 0, 0, 0, 0);
 
 	AntiBan[playerid] = 0;
@@ -1916,8 +1916,8 @@ stock SetPlayerDataToDefault(playerid)
 	PlayerInfo[playerid][kaptbanda] = false;
 	PlayerInfo[playerid][kaptmafia] = false;
 	ResetPlayerWeapons(playerid);
-	Cvet1[playerid] = INVALID_PLAYER_ID;
-	Cvet2[playerid] = INVALID_PLAYER_ID;
+	carColor1[playerid] = INVALID_PLAYER_ID;
+	carColor2[playerid] = INVALID_PLAYER_ID;
 	ZoneOffer[playerid] = INVALID_PLAYER_ID;
 	ZonePrice[playerid] = 0;
 	Armour[playerid] = 0;
@@ -5035,7 +5035,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						GameTextForPlayer(playerid, "~y~-50.000~r~$", 5000, 1);
 						PlayerInfo[playerid][pCash] -= 50000; PlayerPlaySound(playerid, 1052, 0.0, 0.0, 10.0);
 						TuneDialog(playerid);
-						Cvet[playerid] = 000;
+						carColor[playerid] = 000;
 						ChangeVehicleColor(GetPlayerVehicleID(playerid),000,000);
 					}
 				case 1: {
@@ -5043,7 +5043,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						GameTextForPlayer(playerid, "~y~-50.000~r~$", 5000, 1);
 						PlayerInfo[playerid][pCash] -= 50000; PlayerPlaySound(playerid, 1052, 0.0, 0.0, 10.0);
 						TuneDialog(playerid);
-						Cvet[playerid] = 003;
+						carColor[playerid] = 003;
 						ChangeVehicleColor(GetPlayerVehicleID(playerid),003,003);
 					}
 				case 2: {
@@ -5051,7 +5051,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						GameTextForPlayer(playerid, "~y~-50.000~r~$", 5000, 1);
 						PlayerInfo[playerid][pCash] -= 50000; PlayerPlaySound(playerid, 1052, 0.0, 0.0, 10.0);
 						TuneDialog(playerid);
-						Cvet[playerid] = 013;
+						carColor[playerid] = 013;
 						ChangeVehicleColor(GetPlayerVehicleID(playerid),013,013);
 					}
 				case 3: {
@@ -5059,7 +5059,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						GameTextForPlayer(playerid, "~y~-50.000~r~$", 5000, 1);
 						PlayerInfo[playerid][pCash] -= 50000; PlayerPlaySound(playerid, 1052, 0.0, 0.0, 10.0);
 						TuneDialog(playerid);
-						Cvet[playerid] = 001;
+						carColor[playerid] = 001;
 						ChangeVehicleColor(GetPlayerVehicleID(playerid),001,001);
 					}
 				case 4: {
@@ -5067,7 +5067,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						GameTextForPlayer(playerid, "~y~-50.000~r~$", 5000, 1);
 						PlayerInfo[playerid][pCash] -= 50000; PlayerPlaySound(playerid, 1052, 0.0, 0.0, 10.0);
 						TuneDialog(playerid);
-						Cvet[playerid] = 079;
+						carColor[playerid] = 079;
 						TuneDialog(playerid);
 						ChangeVehicleColor(GetPlayerVehicleID(playerid),079,079);
 					}
@@ -5076,7 +5076,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						GameTextForPlayer(playerid, "~y~-50.000~r~$", 5000, 1);
 						PlayerInfo[playerid][pCash] -= 50000; PlayerPlaySound(playerid, 1052, 0.0, 0.0, 10.0);
 						TuneDialog(playerid);
-						Cvet[playerid] = 002;
+						carColor[playerid] = 002;
 						ChangeVehicleColor(GetPlayerVehicleID(playerid),002,002);
 					}
 				case 6: {
@@ -5084,7 +5084,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 						GameTextForPlayer(playerid, "~y~-50.000~r~$", 5000, 1);
 						PlayerInfo[playerid][pCash] -= 50000; PlayerPlaySound(playerid, 1052, 0.0, 0.0, 10.0);
 						TuneDialog(playerid);
-						Cvet[playerid] = 086;
+						carColor[playerid] = 086;
 						ChangeVehicleColor(GetPlayerVehicleID(playerid),086,086);
 					}}}
 			else
@@ -24218,26 +24218,28 @@ c:hm;
 	new KlassHouse[64], CarText[32], DoorStatus[32], SafeStatus[32];
 	switch(HouseInfo[PlayerInfo[playerid][pPhousekey]][hKlass])
 	{
-	case 0: KlassHouse = "Эконом класс";	case 1:KlassHouse = "Cредний класс";	case 2:KlassHouse = "Элитный класс";	case 3:KlassHouse = "Особняк класс";	default:KlassHouse = "Неизвестно";
+		case 0: KlassHouse = "Эконом класс";	case 1:KlassHouse = "Cредний класс";	case 2:KlassHouse = "Элитный класс";	case 3:KlassHouse = "Особняк класс";	default:KlassHouse = "Неизвестно";
 	}
 	switch(PlayerInfo[playerid][pCar])
 	{
-	case 0:  format(CarText, sizeof(CarText), "Не имеется");
-	default: format(CarText, sizeof(CarText), "Имеется");
+		case 0:  format(CarText, sizeof(CarText), "Не имеется");
+		default: format(CarText, sizeof(CarText), "Имеется");
 	}
 	switch(HouseInfo[PlayerInfo[playerid][pPhousekey]][hLock])
 	{
-	case 0: format(DoorStatus, sizeof(DoorStatus), "Закрыты");
-	case 1: format(DoorStatus, sizeof(DoorStatus), "Открыты");
+		case 0: format(DoorStatus, sizeof(DoorStatus), "Закрыты");
+		case 1: format(DoorStatus, sizeof(DoorStatus), "Открыты");
 	}
 	switch(HouseInfo[PlayerInfo[playerid][pPhousekey]][hSafe])
 	{
-	case 0: format(SafeStatus, sizeof(SafeStatus), "Не имеется");
-	case 1: format(SafeStatus, sizeof(SafeStatus), "Имеется");
+		case 0: format(SafeStatus, sizeof(SafeStatus), "Не имеется");
+		case 1: format(SafeStatus, sizeof(SafeStatus), "Имеется");
 	}
+	
 	format(stringer1, sizeof(stringer1), "{FFFFFF}Тип / название:\t\t\t\t{FFE800}%s\n{FFFFFF}Номер дома:\t\t\t\t%d\nГород\t\t\t\t\tг. %s\nСтоимость:\t\t\t\t%d\nСтатус:\t\t\t\t\t{FFB100}%s\n{FFFFFF}Модель домашнего авто:\t\t{ffffff}%d\n{FFFFFF}Счёт дома:\t\t\t\t{FFB100}%d\n{FFFFFF}Аптечки:\t\t\t\t{FFFFFF}%d\n\n{FFFFFF}Гараж:\t\t\t\t\t{FFFFFF}Есть\n{FFFFFF}Сейф:\t\t\t\t\t{FFFFFF}%s\n\n{C6F500}Вы можете войти в панель управления дома,\n нажав кнопку ниже 'Изменить'",
 	KlassHouse,house,pos,HouseInfo[house][hValue], DoorStatus, PlayerInfo[playerid][pCar], HouseInfo[house][hTakings], HouseInfo[house][hHel],SafeStatus);
 	SPD(playerid, 5301, DIALOG_STYLE_MSGBOX, "Панель управления домом", stringer1, "Изменить", "Выйти");
+	
 	return true;
 }
 
