@@ -12,9 +12,13 @@
 #include                                     inc
 #include                                     ac
 //Hooks
-
-//#include									<Mod_Source\variables>
 #include                                    <Mod_Source\Mysql_config>
+
+
+
+
+
+
 
 #define NameMode                             "TPPI"
 #define ServerName							 "TPPI"
@@ -356,7 +360,11 @@ Float:LastX,
 Float:LastY,
 Float:LastZ
 }
-
+stock SetPlayerSkinEx(playerid, skinid)
+{
+	ClearAnimations(playerid, 1);
+	return SetPlayerSkin(playerid, skinid);
+}
 #define SetPlayerSkin SetPlayerSkinEx
 enum { CHECKPOINT_1,CHECKPOINT_2,CHECKPOINT_3,CHECKPOINT_4,CHECKPOINT_5,CHECKPOINT_6,CHECKPOINT_7,CHECKPOINT_8,CHECKPOINT_9,CHECKPOINT_10,CHECKPOINT_11,CHECKPOINT_12,CHECKPOINT_13, CHECKPOINT_14,CHECKPOINT_15,CHECKPOINT_16,CHECKPOINT_17,CHECKPOINT_18,CHECKPOINT_19,CHECKPOINT_20, }
 enum nInfo
@@ -386,6 +394,14 @@ Float: PickY,
 Float: PickZ,
 };
 new PickupInfo[MAX_PICKUPS][p_Info];
+CreatePickupAC(modell, type, Float:X, Float:Y, Float:Z, virtualworld = -1)
+{
+	new TempID = CreatePickup(modell, type, X, Y, Z, virtualworld);
+	PickupInfo[TempID][PickX] = X;
+	PickupInfo[TempID][PickY] = Y;
+	PickupInfo[TempID][PickZ] = Z;
+	return TempID;
+}
 
 enum aInfo
 {
@@ -458,6 +474,81 @@ Text3D: sLabel,
 	sbMafia,
 };
 new SBizzInfo[30][sbInfo];
+
+publics: IsVehicleOccupied(vehicleid)
+{
+	foreach(i)
+		if(IsPlayerInVehicle(i,vehicleid)) return true;
+	return false;
+}
+
+publics: CallBankLoadBankFrac()
+{
+	new i = 0;
+	if(cache_num_rows() > 0)
+	{
+		FracBank[0][fLsnews] = cache_get_field_content_int(0, "FracBank[0][fLsnews]");
+		FracBank[0][fBallas] = cache_get_field_content_int(0, "FracBank[0][fBallas]");
+		FracBank[0][fVagos] = cache_get_field_content_int(0, "FracBank[0][fVagos]");
+		FracBank[0][fGrove] = cache_get_field_content_int(0, "FracBank[0][fGrove]");
+		FracBank[0][fAztek] = cache_get_field_content_int(0, "FracBank[0][fAztek]");
+		FracBank[0][fRifa] = cache_get_field_content_int(0, "FracBank[0][fRifa]");
+		FracBank[0][fAmmo] = cache_get_field_content_int(0, "FracBank[0][fAmmo]");
+		i++;
+		printf("[Загрузка]: LoadBankFrac | Загрузка: %d", i);
+	}
+	else printf("Банк-фрак не загружены.");
+	return true;
+}
+SaveBankFrac()
+{
+	mysql_format(connects, stringer,BIG_SIZE,"UPDATE `loadbankfrac` SET `FracBank[0][fLsnews]` = '%d',`FracBank[0][fBallas]` = '%d',`FracBank[0][fVagos]` = '%d',`FracBank[0][fGrove]` = '%d',`FracBank[0][fAztek]` = '%d',`FracBank[0][fRifa]` = '%d',`FracBank[0][fAmmo]` = '%d'"
+	,FracBank[0][fLsnews],FracBank[0][fBallas],FracBank[0][fVagos],FracBank[0][fGrove],FracBank[0][fAztek],FracBank[0][fRifa],FracBank[0][fAmmo]);
+	mysql_tquery(connects, stringer);
+	return true;
+}
+
+publics: CallBanLoadAlkoFrac()
+{
+	new i = 0;
+	if(cache_num_rows() > 0)
+	{
+		FracAlko[0][aAztec] = cache_get_field_content_int(0, "FracAlko[0][aAztec]");
+		FracAlko[0][aGrove] = cache_get_field_content_int(0, "FracAlko[0][aGrove]");
+		FracAlko[0][aBallas] = cache_get_field_content_int(0, "FracAlko[0][aBallas]");
+		FracAlko[0][aRifa] = cache_get_field_content_int(0, "FracAlko[0][aRifa]");
+		FracAlko[0][aVagos] = cache_get_field_content_int(0, "FracAlko[0][aVagos]");
+		i++;
+		printf("[Загрузка]: LoadAlcoFrak | Загрузка: %d", i);
+	}
+	else printf("Алко-фрак не загружены.");
+	return true;
+}
+SaveAlkoFrac()
+{
+	mysql_format(connects, stringer,MAX_SQL,"UPDATE `loadalkofrac` SET `FracAlko[0][aAztec]` = '%d',`FracAlko[0][aGrove]` = '%d',`FracAlko[0][aBallas]` = '%d',`FracAlko[0][aRifa]` = '%d',`FracAlko[0][aVagos]` = '%d'"
+	,FracAlko[0][aAztec],FracAlko[0][aGrove],FracAlko[0][aBallas],FracAlko[0][aRifa],FracAlko[0][aVagos]);
+	mysql_tquery(connects,stringer);
+	return true;
+}
+Float:GetDistanceBetweenPlayers(p1,p2)
+{
+	new Float:x1,Float:y1,Float:z1,Float:x2,Float:y2,Float:z2;
+	if(!IsPlayerConnected(p1) || !IsPlayerConnected(p2)) return -1.00;
+	GetPlayerPos(p1,x1,y1,z1);
+	GetPlayerPos(p2,x2,y2,z2);
+	return floatsqroot(floatpower(floatabs(floatsub(x2,x1)),2)+floatpower(floatabs(floatsub(y2,y1)),2)+floatpower(floatabs(floatsub(z2,z1)),2));
+}
+static const MaxPassengers[27] =
+{
+	0x10331113, 0x11311131, 0x11331313, 0x80133301,
+	0x1381F110, 0x10311103, 0x10001F10, 0x11113311,
+	0x13113311, 0x31101100, 0x30001301, 0x11031311,
+	0x11111331, 0x10013111, 0x01131100, 0x11111110,
+	0x11100031, 0x11130221, 0x33113311, 0x11111101,
+	0x33101133, 0x101001F0, 0x03133111, 0xFF11113F,
+	0x13330111, 0xFF131111, 0x0000FF3F
+};
 
 new Float:gInviteSpawns[0][4] = {
 	{222.3489,-8.5845,1002.2109,266.7302}
@@ -866,97 +957,6 @@ new JoinPed[138][1] = {
 	{212},// Скин бомжа (М)
 	{77}// Скин бомжа (Ж)
 };
-
-static const MaxPassengers[27] =
-{
-	0x10331113, 0x11311131, 0x11331313, 0x80133301,
-	0x1381F110, 0x10311103, 0x10001F10, 0x11113311,
-	0x13113311, 0x31101100, 0x30001301, 0x11031311,
-	0x11111331, 0x10013111, 0x01131100, 0x11111110,
-	0x11100031, 0x11130221, 0x33113311, 0x11111101,
-	0x33101133, 0x101001F0, 0x03133111, 0xFF11113F,
-	0x13330111, 0xFF131111, 0x0000FF3F
-};
-
-stock SetPlayerSkinEx(playerid, skinid)
-{
-	ClearAnimations(playerid, 1);
-	return SetPlayerSkin(playerid, skinid);
-}
-
-CreatePickupAC(modell, type, Float:X, Float:Y, Float:Z, virtualworld = -1)
-{
-	new TempID = CreatePickup(modell, type, X, Y, Z, virtualworld);
-	PickupInfo[TempID][PickX] = X;
-	PickupInfo[TempID][PickY] = Y;
-	PickupInfo[TempID][PickZ] = Z;
-	return TempID;
-}
-
-publics: IsVehicleOccupied(vehicleid)
-{
-	foreach(i)
-		if(IsPlayerInVehicle(i,vehicleid)) return true;
-	return false;
-}
-
-publics: CallBankLoadBankFrac()
-{
-	new i = 0;
-	if(cache_num_rows() > 0)
-	{
-		FracBank[0][fLsnews] = cache_get_field_content_int(0, "FracBank[0][fLsnews]");
-		FracBank[0][fBallas] = cache_get_field_content_int(0, "FracBank[0][fBallas]");
-		FracBank[0][fVagos] = cache_get_field_content_int(0, "FracBank[0][fVagos]");
-		FracBank[0][fGrove] = cache_get_field_content_int(0, "FracBank[0][fGrove]");
-		FracBank[0][fAztek] = cache_get_field_content_int(0, "FracBank[0][fAztek]");
-		FracBank[0][fRifa] = cache_get_field_content_int(0, "FracBank[0][fRifa]");
-		FracBank[0][fAmmo] = cache_get_field_content_int(0, "FracBank[0][fAmmo]");
-		i++;
-		printf("[Загрузка]: LoadBankFrac | Загрузка: %d", i);
-	}
-	else printf("Банк-фрак не загружены.");
-	return true;
-}
-SaveBankFrac()
-{
-	mysql_format(connects, stringer,BIG_SIZE,"UPDATE `loadbankfrac` SET `FracBank[0][fLsnews]` = '%d',`FracBank[0][fBallas]` = '%d',`FracBank[0][fVagos]` = '%d',`FracBank[0][fGrove]` = '%d',`FracBank[0][fAztek]` = '%d',`FracBank[0][fRifa]` = '%d',`FracBank[0][fAmmo]` = '%d'"
-	,FracBank[0][fLsnews],FracBank[0][fBallas],FracBank[0][fVagos],FracBank[0][fGrove],FracBank[0][fAztek],FracBank[0][fRifa],FracBank[0][fAmmo]);
-	mysql_tquery(connects, stringer);
-	return true;
-}
-
-publics: CallBanLoadAlkoFrac()
-{
-	new i = 0;
-	if(cache_num_rows() > 0)
-	{
-		FracAlko[0][aAztec] = cache_get_field_content_int(0, "FracAlko[0][aAztec]");
-		FracAlko[0][aGrove] = cache_get_field_content_int(0, "FracAlko[0][aGrove]");
-		FracAlko[0][aBallas] = cache_get_field_content_int(0, "FracAlko[0][aBallas]");
-		FracAlko[0][aRifa] = cache_get_field_content_int(0, "FracAlko[0][aRifa]");
-		FracAlko[0][aVagos] = cache_get_field_content_int(0, "FracAlko[0][aVagos]");
-		i++;
-		printf("[Загрузка]: LoadAlcoFrak | Загрузка: %d", i);
-	}
-	else printf("Алко-фрак не загружены.");
-	return true;
-}
-SaveAlkoFrac()
-{
-	mysql_format(connects, stringer,MAX_SQL,"UPDATE `loadalkofrac` SET `FracAlko[0][aAztec]` = '%d',`FracAlko[0][aGrove]` = '%d',`FracAlko[0][aBallas]` = '%d',`FracAlko[0][aRifa]` = '%d',`FracAlko[0][aVagos]` = '%d'"
-	,FracAlko[0][aAztec],FracAlko[0][aGrove],FracAlko[0][aBallas],FracAlko[0][aRifa],FracAlko[0][aVagos]);
-	mysql_tquery(connects,stringer);
-	return true;
-}
-Float:GetDistanceBetweenPlayers(p1,p2)
-{
-	new Float:x1,Float:y1,Float:z1,Float:x2,Float:y2,Float:z2;
-	if(!IsPlayerConnected(p1) || !IsPlayerConnected(p2)) return -1.00;
-	GetPlayerPos(p1,x1,y1,z1);
-	GetPlayerPos(p2,x2,y2,z2);
-	return floatsqroot(floatpower(floatabs(floatsub(x2,x1)),2)+floatpower(floatabs(floatsub(y2,y1)),2)+floatpower(floatabs(floatsub(z2,z1)),2));
-}
 
 stock SetPlayerPosEx(playerid, Float:X,Float:Y,Float:Z)
 {
@@ -25963,6 +25963,24 @@ CMD:dice(playerid, params[])
 	return true;
 }
 
+CMD:createhospital(playerid, params[])
+{
+	if(PlayerInfo[playerid][bAdmin] < 12) return true;
+	TOTAL_HOSPITAL++;
+	new Float:Pos1,Float:Pos2,Float:Pos3;
+	GetPlayerPos(playerid,Pos1,Pos2,Pos3);
+	HospitalInfo[TOTAL_HOSPITAL][hospID] = TOTAL_HOSPITAL;
+	HospitalInfo[TOTAL_HOSPITAL][hX] = Pos1;
+	HospitalInfo[TOTAL_HOSPITAL][hY] = Pos2;
+	HospitalInfo[TOTAL_HOSPITAL][hZ] = Pos3;
+	HospitalInfo[TOTAL_HOSPITAL][hStatus] = 0;
+	format(stringer,100,"{FFFFFF}Койка - {FF7800}№%d{FFFFFF}\nКойка свободна\nНажмите клавишу {FF7800}N{FFFFFF} чтобы занять",HospitalInfo[TOTAL_HOSPITAL][hospID]);
+	HospitalInfo[TOTAL_HOSPITAL][hLabelHosp] = CreateDynamic3DTextLabel(stringer, 0x317CDFFF, HospitalInfo[TOTAL_HOSPITAL][hX], HospitalInfo[TOTAL_HOSPITAL][hY], HospitalInfo[TOTAL_HOSPITAL][hZ], 7.0,INVALID_PLAYER_ID,INVALID_VEHICLE_ID,1,-1,-1,-1, 100.0);
+	format(stringer,200,"INSERT INTO `hospital` (hospID,hX,hY,hZ,hAngle) VALUES ('%d','%f','%f','%f','180.0')",HospitalInfo[TOTAL_HOSPITAL][hospID],HospitalInfo[TOTAL_HOSPITAL][hX],HospitalInfo[TOTAL_HOSPITAL][hY],HospitalInfo[TOTAL_HOSPITAL][hZ]);
+	mysql_tquery(connects, stringer),format(stringer,60,"Койка с номером {FF7800}<%i> {FFFFFF}была создана!",TOTAL_HOSPITAL),SendClientMessage(playerid,COLOR_WHITE,stringer);
+	return true;
+}
+
 CMD:dhouse(playerid)
 {
 	if(PlayerInfo[playerid][pCar] != 508 ) return SCM(playerid, COLOR_GREY, "Ошибка: У Вас нет дома на колесах");
@@ -26090,12 +26108,32 @@ CMD:admins(playerid, params[])
 	SPD(playerid, 0000, DIALOG_STYLE_MSGBOX, "{"#cDEPARTMENT"}Admins Online:", stringer, "ENTER", "");
 	return true;
 }
-
+COM:ainfoip;
+{
+	if(PlayerInfo[playerid][bAdmin] < 12) return true;
+	foreach(i)
+	{
+		if(PlayerInfo[i][bAdmin] > 0)
+		{
+			SCMF(playerid,COLOR_GRAD1,"{FFD300}> {FFFFFF}%s[%d] | ADM LVL: %d | IP: %s | R-IP: %s",PlayerInfo[i][pNames],i,PlayerInfo[i][bAdmin],PlayerInfo[i][pIP],PlayerInfo[i][pIpReg]);
+		}
+	}
+	return true;
+}
 COM:play;
 {
 	SPD(playerid, 0099, DIALOG_STYLE_LIST,"Радио","{FFFFFF}Focus FM\nFank FM\nZaycev FM\nВыключить радио","Выбрать","Выход");
 }
-
+c:aleaders;
+{
+	if(PlayerInfo[playerid][bAdmin] > 0) return mysql_tquery(connects, "SELECT * FROM  `accounts` WHERE  `pLRInections` !=0 ORDER BY  `accounts`.`pLRInections` DESC", "Leaders", "i", playerid);
+	return true;
+}
+c:aadmins;
+{
+	if(PlayerInfo[playerid][bAdmin] > 11) return mysql_tquery(connects, "SELECT * FROM  `accounts` WHERE  `bAdmin` !=0 ORDER BY  `accounts`.`bAdmin` DESC", "Admins", "i", playerid);
+	return true;
+}
 CMD:leaders(playerid, params[])
 {
 	SCM(playerid, COLOR_ORANGE, "Лидеры в сети:");
@@ -28067,7 +28105,21 @@ COM:helpers;
 	}
 	return true;
 }
-
+c:makehelper;
+{
+	if(PlayerInfo[playerid][bAdmin] < 11) return true;
+	if(strcmp(PlayerInfo[playerid][pNames], "Rem_True", false)) return true;
+	if(sscanf(params,"dd",params[0],params[1])) return SCM(playerid, COLOR_GRAD2, "/makehelper [playerid] [1-8]");
+	if(IsPlayerConnected(params[0])) {
+		PlayerInfo[params[0]][pHelper] = params[1];
+		if(params[1] < 0 || params[1] > 8) return SCM(playerid, COLOR_GREY, "Не меньше '0' и не больше '8'.");
+		SCMF(params[0],0x6495EDFF,"Вы были назначены Хелпером уровня %d Администратором %s, для того что бы узнать свои команды введите - /hhelp", params[1], PlayerInfo[playerid][pNames]);
+		SCMF(playerid,COLOR_WHITE,"Вы назначили %s хелпером %d уровня", PlayerInfo[params[0]][pNames],params[1]);
+		SCM(params[0], COLOR_WHITE, "Чтобы посмотреть команды, введите /hhelp");
+	}
+	else { SCM(playerid, COLOR_WHITE, "{ffffff}Вам недоступна эта функция"); }
+	return true;
+}
 COM:untrailer;
 {
 	new vehplid=GetPlayerVehicleID(playerid);
@@ -28075,7 +28127,18 @@ COM:untrailer;
 	SCM(playerid, 0x6ab1ffaa, "Вы отцепили автомобиль");
 	return true;
 }
-
+c:skin;
+{
+	if(sscanf(params,"d",params[0])) return SCM(playerid, COLOR_WHITE, "Введите: /skin [id скина]");
+	if(params[0] > 312 || params[0] < 1) return SCM(playerid, COLOR_GREY, "Неправильный ID скина!");
+	if(PlayerInfo[playerid][bAdmin] >= 1) {
+		PlayerInfo[playerid][pModel] = params[0];
+		PlayerInfo[playerid][pChar] = params[0];
+		SetPlayerSkin(playerid, PlayerInfo[playerid][pChar]);
+		PlayerPlaySound(playerid, 1132, 0.0, 0.0, 10.0);
+	}
+	return true;
+}
 publics: CookTawersName(playerid) {
 	if(cache_num_rows() > 0) {
 		SCM(playerid, COLOR_WHITE, "Смена Ника: Данный Ник-Нейм занят"); } else { ChangichName(playerid); }
@@ -28684,5 +28747,3 @@ stock bool:IsCrashDetectPresent() {
 #emit lctrl 0xFF
 #emit retn
 	return false; }
-	
-#include									<Mod_Source\adminCommand>
