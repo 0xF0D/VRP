@@ -2,4 +2,6 @@ pawno/include/Mod_Source/Mysql_config.inc
 gamemodes/Reserv
 *.lnk
 mysql_log.txt
-*.amx
+server_log.txt
+mysql_log.txt
+mysql_log.txt*.amx
